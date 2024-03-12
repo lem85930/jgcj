@@ -31,6 +31,10 @@ jobs:
         run: |
           git config --local user.email "chenhua.xu@qq.com"
           git config --local user.name "wokaotianshi123"
-          git add maqu.txt
-          git commit -m "Update results"
-          git push
+          if [ -n "$(git status --porcelain)" ]; then
+            git add maqu.txt
+            git commit -m "Automatic update"
+            git push
+          else
+            echo "No changes detected, skipping commit."
+          fi
