@@ -29,6 +29,6 @@ jobs:
         run: |
           git config --local user.email "chenhua.xu@qq.com"
           git config --local user.name "wokaotianshi123"
-          git add cj.csv
+          git add pq.txt
           git commit -m "Update results"
           git push
