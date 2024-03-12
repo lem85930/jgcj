@@ -1,31 +1,37 @@
-import csv
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
 
-# 搜索关键词
-query = "at/xml 采集 帮助"
+def get_google_results(keyword):
+    url = f"https://www.google.com/search?q={keyword}"
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        results = soup.find_all('div', class_='tF2Cxc')
+        return results
+    else:
+        print("Failed to fetch Google search results.")
+        return None
 
-# 构建Google搜索URL
-url = f"https://www.google.com/search?q={query}&sca_esv=e1f0b68dea977417&sxsrf=ACQVn09YtSv75TWfD_SiXFkwhbrT3Wtt_g%3A1710226915992&source=hp&ei=4_3vZevpOYvR2roPop--0As&iflsig=ANes7DEAAAAAZfAL8875oZz0PIej1rrOGIfTTw92LAsc&ved=0ahUKEwir573ek-6EAxWLqFYBHaKPD7oQ4dUDCBU&oq=at%2Fxml+%E9%87%87%E9%9B%86+%E5%B8%AE%E5%8A%A9&gs_lp=Egdnd3Mtd2l6IhRhdC94bWwg6YeH6ZuGIOW4ruWKqTIHECMYrgIYJ0i_IFAAWABwAHgAkAEAmAGtBaABrQWqAQM1LTG4AQzIAQD4AQL4AQGYAgGgArAFmAMAkgcDNS0xoAedAg&sclient=gws-wiz"
+def extract_api_info(results):
+    api_data = []
+    for idx, result in enumerate(results, start=1):
+        title = result.find('h3').get_text()
+        link = result.find('a')['href']
+        api_data.append({'序号': f'cjy{idx:02}', 'api名称': title, 'api链接': link})
+    return api_data
 
-# 发送请求并获取响应
-response = requests.get(url)
-soup = BeautifulSoup(response.text, "html.parser")
+def create_csv(api_data):
+    df = pd.DataFrame(api_data)
+    df.to_csv('cj.csv', index=False)
 
-# 从HTML中提取搜索结果
-search_results = []
-count = 1
-for result in soup.select(".g"):
-    title = result.select_one(".LC20lb").text
-    link = result.select_one(".yuRUbf > a")["href"]
-    item_no = f"cjy{count:02d}"
-    search_results.append((item_no, title, link))
-    count += 1
-
-# 将结果写入CSV文件
-with open("cj.csv", "w", newline="", encoding="utf-8") as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerow(["序号", "API名称", "API链接"])
-    writer.writerows(search_results)
-
-print("搜索结果已保存到cj.csv文件中。")
+if __name__ == '__main__':
+    keyword = 'at/xml 采集 帮助'
+    results = get_google_results(keyword)
+    
+    if results:
+        api_data = extract_api_info(results)
+        create_csv(api_data)
+        print("Table successfully created and saved as cj.csv.")
