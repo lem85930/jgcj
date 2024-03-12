@@ -1,6 +1,6 @@
 import requests
 import re
-
+import os
 # 读取pq.txt中的每一行
 with open('pq.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
