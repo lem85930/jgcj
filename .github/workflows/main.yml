@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 pandas
 
       - name: Run script
         run: python cjjg.py # 替换为您的Python脚本文件名
