@@ -6,7 +6,7 @@ import csv
 search_keyword = "at/xml 采集 帮助"
 
 # Google搜索URL
-url = f"https://www.google.com/search?q={search_keyword}"
+url = "https://www.google.com/search?q={search_keyword}"
 
 # 发送请求并获取网页内容
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
