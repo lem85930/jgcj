@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 query = "at/xml 采集 帮助"
 
 # 构建Google搜索URL
-url = f"https://www.google.com/search?q={query}"
+url = f"https://www.google.com/search?q={query}&sca_esv=e1f0b68dea977417&sxsrf=ACQVn09YtSv75TWfD_SiXFkwhbrT3Wtt_g%3A1710226915992&source=hp&ei=4_3vZevpOYvR2roPop--0As&iflsig=ANes7DEAAAAAZfAL8875oZz0PIej1rrOGIfTTw92LAsc&ved=0ahUKEwir573ek-6EAxWLqFYBHaKPD7oQ4dUDCBU&oq=at%2Fxml+%E9%87%87%E9%9B%86+%E5%B8%AE%E5%8A%A9&gs_lp=Egdnd3Mtd2l6IhRhdC94bWwg6YeH6ZuGIOW4ruWKqTIHECMYrgIYJ0i_IFAAWABwAHgAkAEAmAGtBaABrQWqAQM1LTG4AQzIAQD4AQL4AQGYAgGgArAFmAMAkgcDNS0xoAedAg&sclient=gws-wiz"
 
 # 发送请求并获取响应
 response = requests.get(url)
