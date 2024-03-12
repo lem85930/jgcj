@@ -23,12 +23,14 @@ jobs:
           pip install requests beautifulsoup4 pandas
 
       - name: Run script
-        run: python cjjg.py # 替换为您的Python脚本文件名
+        run: |
+          python xinpq.py # 替换为您的Python脚本文件名
+          python lins.py
 
       - name: Commit results
         run: |
           git config --local user.email "chenhua.xu@qq.com"
           git config --local user.name "wokaotianshi123"
-          git add pq.txt
+          git add maqu.txt
           git commit -m "Update results"
           git push
