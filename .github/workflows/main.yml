@@ -1,0 +1,34 @@
+name: Run Python Script
+
+on:
+  schedule:
+    - cron: '0 */3 * * *' # 每3小时运行一次
+  workflow_dispatch: # 允许手动触发
+  push: # 提交时触发
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Run script
+        run: python cjjg.py # 替换为您的Python脚本文件名
+
+      - name: Commit results
+        run: |
+          git config --local user.email "chenhua.xu@qq.com"
+          git config --local user.name "wokaotianshi123"
+          git add cj.csv
+          git commit -m "Update results"
+          git push
