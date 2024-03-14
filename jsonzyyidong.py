@@ -49,3 +49,10 @@ with open('zytvbox.json', 'w', encoding='utf-8') as json_file_zytvbox:
     json_file_zytvbox.write(json_data_zytvbox)
 
 print("转换完成，数据已保存到zyvying.json和zytvbox.json文件中。")
+file_path = 'maqu.txt'
+
+if os.path.exists(file_path):
+    os.remove(file_path)
+    print('maqu.txt已删除')
+else:
+    print('maqu.txt不存在')
