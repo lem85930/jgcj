@@ -26,7 +26,7 @@ jobs:
         run: |
           python xinpq.py # 替换为您的Python脚本文件名
           python lins.py
-
+          python jsonzyyidong.py
       - name: Commit results
         run: |
           git config --local user.email "chenhua.xu@qq.com"
