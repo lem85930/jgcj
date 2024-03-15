@@ -16,7 +16,7 @@ for line in lines:
     if len(parts) == 2:
         # 提取资源网名称和接口URL
         name = parts[0].strip()
-        api_url = parts[1].strip().split('at/xml')[0] + '/at/xml'
+        api_url = parts[1].strip().split('at/xml')[0] + 'at/xml'
         
         # 构建字典并添加到converted_data列表中
         data_dict_for_converted = {
