@@ -24,7 +24,7 @@ jobs:
 
       - name: Run script
         run: |
-          python xinpq.py # 替换为您的Python脚本文件名
+          #python xinpq.py # 替换为您的Python脚本文件名
           python lins.py
           python jsonzyyidong.py
           
