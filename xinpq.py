@@ -37,6 +37,6 @@ for url in urls:
                 all_results.append(f"{title},{full_href}\n")
 
 # 将结果写入pq.txt
-with open('pq.txt', 'w', encoding='utf-8') as file:
-    for result in all_results:
-        file.write(result)
+#with open('pq.txt', 'w', encoding='utf-8') as file:
+    #for result in all_results:
+        #file.write(result)
