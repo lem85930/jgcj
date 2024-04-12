@@ -25,8 +25,8 @@ with open('maqu.txt', 'w', encoding='utf-8') as file:
         file.write(result + '\n')
 file_path = 'pq.txt'
 
-if os.path.exists(file_path):
-    os.remove(file_path)
-    print('pq.txt已删除')
-else:
-    print('pq.txt不存在')
+#if os.path.exists(file_path):
+    #os.remove(file_path)
+    #print('pq.txt已删除')
+#else:
+    #print('pq.txt不存在')
