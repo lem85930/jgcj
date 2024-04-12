@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
@@ -24,10 +24,9 @@ jobs:
 
       - name: Run script
         run: |
-          #python xinpq.py # 替换为您的Python脚本文件名
           python lins.py
           python jsonzyyidong.py
-          
+        # python xinpq.py # 替换为您的Python脚本文件名(运行不了了，能运行放最前面）
       - name: Commit results
         run: |
           git config --local user.email "chenhua.xu@qq.com"
