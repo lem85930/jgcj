@@ -7,12 +7,12 @@ all_results = []
 
 # 多个网址需要提取
 urls = [
-    "https://www.yszzq.com/tags/xmlcjjk/",
-    "https://www.yszzq.com/tags/xmlcjjk_1",
-    "https://www.yszzq.com/tags/xmlcjjk_2",
-    "https://www.yszzq.com/tags/xmlcjjk_3",
-    "https://www.yszzq.com/tags/xmlcjjk_4",
-    "https://www.yszzq.com/tags/xmlcjjk_5"
+    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk/",
+    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_1",
+    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_2",
+    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_3",
+    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_4",
+    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_5"
 ]
 
 # 遍历请求多个网址
