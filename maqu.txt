@@ -1,3 +1,9 @@
+魔都动漫资源采集网采集接口,https://www.mdzyapi.com/api.php/provide/vod/at/xml
+豪华资源网采集接口地址,https://hhzyapi.com/api.php/provide/vod/at/xml
+越南资源网采集接口,https://vnzyz.com/api.php/provide/vod/at/xml
+好色资源网采集接口地址,https://haosezyw.com/api.php/provide/vod/at/xml
+色色虎资源网采集接口,https://apisesehuzy.com/api.php/provide/vod/at/xml
+丫丫资源网采集接口,https://cj.yayazy.net/api.php/provide/vod/from/yym3u8/at/xml
 老色逼资源站采集接口,https://apilsbzy1.com/api.php/provide/vod/at/xml
 优优资源网采集接口,https://jk1.yycmszywapi.cc/api.php/provide/vod/at/xml
 黑木耳资源站采集接口,https://xml.heimuer.xyz/api.php/provide/vod/at/xml
@@ -5,6 +11,8 @@
 玉兔资源采集接口,https://apiyutu.com/api.php/provide/vod/at/xml
 GAY资源网采集接口,https://gayapi.com/api.php/provide/vod/at/xml
 360资源站采集接口,https://360zy.com/api.php/provide/vod/at/xml
+全站资源网采集接口分享,https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/at/xml
+爱坤联盟资源网采集接口,https://ikunzyapi.com/api.php/seaxml/vod/at/xml
 奥斯卡资源API采集接口大全,https://aosikazy.com/api.php/provide/vod/at/xml
 速看资源网采集接口大全,https://ziyuan.skm3u8.com/api.php/ff/provide/vod/from/ffm3u8/at/xml
 阳光资源网采集接口,http://www.xxzy.org/api.php/provide/vod/at/xml
