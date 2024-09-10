@@ -1,3 +1,8 @@
+155资源站采集接口,https://155api.com/api.php/provide/vod/at/xml
+非凡资源网采集接口,http://api.ffzyapi.com/api.php/provide/vod/at/xml
+奶香香资源站采集接口,https://naixxzy.com/api.php/provide/vod/at/xml
+极速资源网采集接口,https://jszyapi.com/api.php/provide/vod/at/xml
+jkun爱坤联盟资源网采集接口,https://jkunzyapi.com/api.php/seaxml/vod/at/xml
 魔都动漫资源采集网采集接口,https://www.mdzyapi.com/api.php/provide/vod/at/xml
 豪华资源网采集接口地址,https://hhzyapi.com/api.php/provide/vod/at/xml
 越南资源网采集接口,https://vnzyz.com/api.php/provide/vod/at/xml
@@ -24,4 +29,3 @@ GAY资源网采集接口,https://gayapi.com/api.php/provide/vod/at/xml
 天空资源网采集接口,https://api.tiankongapi.com/api.php/provide/vod/at/xml
 U酷资源网采集地址,https://api.ukuapi.com/api.php/provide/vod/at/xml
 百度资源M3U8 json接口,https://api.apibdzy.com/api.php/provide/vod/at/xml
-红牛云播资源采集地址,https://www.hongniuzy2.com/api.php/provide/vod/at/xml

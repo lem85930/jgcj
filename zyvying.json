@@ -1,5 +1,35 @@
 [
     {
+        "key": "155资源站采集接口",
+        "name": "155资源站采集接口",
+        "api": "https://155api.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "key": "非凡资源网采集接口",
+        "name": "非凡资源网采集接口",
+        "api": "http://api.ffzyapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "key": "奶香香资源站采集接口",
+        "name": "奶香香资源站采集接口",
+        "api": "https://naixxzy.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "key": "极速资源网采集接口",
+        "name": "极速资源网采集接口",
+        "api": "https://jszyapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "key": "jkun爱坤联盟资源网采集接口",
+        "name": "jkun爱坤联盟资源网采集接口",
+        "api": "https://jkunzyapi.com/api.php/seaxml/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "魔都动漫资源采集网采集接口",
         "name": "魔都动漫资源采集网采集接口",
         "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml",
@@ -153,12 +183,6 @@
         "key": "百度资源M3U8 json接口",
         "name": "百度资源M3U8 json接口",
         "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "红牛云播资源采集地址",
-        "name": "红牛云播资源采集地址",
-        "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
         "useInSearchAll": true
     }
 ]
