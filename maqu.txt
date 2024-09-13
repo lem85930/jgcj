@@ -1,3 +1,8 @@
+樱花资源网采集接口,https://m3u8.apiyhzy.com/api.php/seacms/vod/at/xml
+麒麟资源站全站采集接口,https://www.qilinzyz.com/api.php/provide/vod/at/xml
+快车资源采集站采集接口,https://caiji.kczyapi.com/api.php/provide/vod/at/xml
+易看资源网采集接口,https://api.ekanapi.com/api.php/provide/vod/at/xml
+辣椒资源网采集接口,https://apilj.com/api.php/provide/vod/at/xml
 155资源站采集接口,https://155api.com/api.php/provide/vod/at/xml
 非凡资源网采集接口,http://api.ffzyapi.com/api.php/provide/vod/at/xml
 奶香香资源站采集接口,https://naixxzy.com/api.php/provide/vod/at/xml
@@ -19,13 +24,7 @@ GAY资源网采集接口,https://gayapi.com/api.php/provide/vod/at/xml
 全站资源网采集接口分享,https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/at/xml
 爱坤联盟资源网采集接口,https://ikunzyapi.com/api.php/seaxml/vod/at/xml
 奥斯卡资源API采集接口大全,https://aosikazy.com/api.php/provide/vod/at/xml
-速看资源网采集接口大全,https://ziyuan.skm3u8.com/api.php/ff/provide/vod/from/ffm3u8/at/xml
-阳光资源网采集接口,http://www.xxzy.org/api.php/provide/vod/at/xml
-188资源网采集接口大全,http://www.188zy.org/api.php/provide/vod/at/xml
-量子资源网资源采集接口,https://cj.lziapi.com/api.php/provide/vod/at/xml
+探探资源采集接口中心,https://apittzy.com/api.php/provide/vod/at/xml
+老鸭资源网采集接口,https://api.apilyzy.com/api.php/provide/vod/at/xml
 新浪资源采集网采集接口大全,https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml
 金鹰资源网苹果CMS采集接口,https://jyzyapi.com/provide/vod/at/xml
-阿远采集资源网苹果CMSV8采集接口,https://www.cjzy.xyz:8888/api.php/provide/vod/at/xml
-天空资源网采集接口,https://api.tiankongapi.com/api.php/provide/vod/at/xml
-U酷资源网采集地址,https://api.ukuapi.com/api.php/provide/vod/at/xml
-百度资源M3U8 json接口,https://api.apibdzy.com/api.php/provide/vod/at/xml

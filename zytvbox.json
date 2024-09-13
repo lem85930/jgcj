@@ -1,5 +1,45 @@
 [
     {
+        "key": "樱花资源网采集接口",
+        "name": "樱花资源网采集接口",
+        "type": 1,
+        "api": "https://m3u8.apiyhzy.com/api.php/seacms/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
+        "key": "麒麟资源站全站采集接口",
+        "name": "麒麟资源站全站采集接口",
+        "type": 1,
+        "api": "https://www.qilinzyz.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
+        "key": "快车资源采集站采集接口",
+        "name": "快车资源采集站采集接口",
+        "type": 1,
+        "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
+        "key": "易看资源网采集接口",
+        "name": "易看资源网采集接口",
+        "type": 1,
+        "api": "https://api.ekanapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
+        "key": "辣椒资源网采集接口",
+        "name": "辣椒资源网采集接口",
+        "type": 1,
+        "api": "https://apilj.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
         "key": "155资源站采集接口",
         "name": "155资源站采集接口",
         "type": 1,
@@ -168,34 +208,18 @@
         "recordable": 0
     },
     {
-        "key": "速看资源网采集接口大全",
-        "name": "速看资源网采集接口大全",
+        "key": "探探资源采集接口中心",
+        "name": "探探资源采集接口中心",
         "type": 1,
-        "api": "https://ziyuan.skm3u8.com/api.php/ff/provide/vod/from/ffm3u8/",
+        "api": "https://apittzy.com/api.php/provide/vod/",
         "searchable": 1,
         "recordable": 0
     },
     {
-        "key": "阳光资源网采集接口",
-        "name": "阳光资源网采集接口",
+        "key": "老鸭资源网采集接口",
+        "name": "老鸭资源网采集接口",
         "type": 1,
-        "api": "http://www.xxzy.org/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
-        "key": "188资源网采集接口大全",
-        "name": "188资源网采集接口大全",
-        "type": 1,
-        "api": "http://www.188zy.org/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
-        "key": "量子资源网资源采集接口",
-        "name": "量子资源网资源采集接口",
-        "type": 1,
-        "api": "https://cj.lziapi.com/api.php/provide/vod/",
+        "api": "https://api.apilyzy.com/api.php/provide/vod/",
         "searchable": 1,
         "recordable": 0
     },
@@ -212,38 +236,6 @@
         "name": "金鹰资源网苹果CMS采集接口",
         "type": 1,
         "api": "https://jyzyapi.com/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
-        "key": "阿远采集资源网苹果CMSV8采集接口",
-        "name": "阿远采集资源网苹果CMSV8采集接口",
-        "type": 1,
-        "api": "https://www.cjzy.xyz:8888/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
-        "key": "天空资源网采集接口",
-        "name": "天空资源网采集接口",
-        "type": 1,
-        "api": "https://api.tiankongapi.com/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
-        "key": "U酷资源网采集地址",
-        "name": "U酷资源网采集地址",
-        "type": 1,
-        "api": "https://api.ukuapi.com/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
-        "key": "百度资源M3U8 json接口",
-        "name": "百度资源M3U8 json接口",
-        "type": 1,
-        "api": "https://api.apibdzy.com/api.php/provide/vod/",
         "searchable": 1,
         "recordable": 0
     }
