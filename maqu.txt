@@ -1,3 +1,6 @@
+卧龙影视资源采集站采集接口,https://collect.wolongzy.cc/api.php/provide/vod/at/xml
+丝袜资源采集网采集接口,https://siwazyw.tv/api.php/provide/vod/at/xml
+无尽资源网采集接口,https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/xml
 樱花资源网采集接口,https://m3u8.apiyhzy.com/api.php/seacms/vod/at/xml
 麒麟资源站全站采集接口,https://www.qilinzyz.com/api.php/provide/vod/at/xml
 快车资源采集站采集接口,https://caiji.kczyapi.com/api.php/provide/vod/at/xml
@@ -26,5 +29,3 @@ GAY资源网采集接口,https://gayapi.com/api.php/provide/vod/at/xml
 奥斯卡资源API采集接口大全,https://aosikazy.com/api.php/provide/vod/at/xml
 探探资源采集接口中心,https://apittzy.com/api.php/provide/vod/at/xml
 老鸭资源网采集接口,https://api.apilyzy.com/api.php/provide/vod/at/xml
-新浪资源采集网采集接口大全,https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml
-金鹰资源网苹果CMS采集接口,https://jyzyapi.com/provide/vod/at/xml

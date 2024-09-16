@@ -1,3 +1,6 @@
+卧龙影视资源采集站采集接口,https://www.yszzq.com/ziyuan/api/197.html
+丝袜资源采集网采集接口,https://www.yszzq.com/ziyuan/api/196.html
+无尽资源网采集接口,https://www.yszzq.com/ziyuan/api/195.html
 樱花资源网采集接口,https://www.yszzq.com/ziyuan/api/194.html
 色猫资源网采集接口,https://www.yszzq.com/ziyuan/api/193.html
 麒麟资源站全站采集接口,https://www.yszzq.com/ziyuan/api/192.html
@@ -43,6 +46,3 @@ GAY资源网采集接口,https://www.yszzq.com/ziyuan/api/168.html
 CK资源采集接口,https://www.yszzq.com/ziyuan/api/143.html
 量子资源网资源采集接口,https://www.yszzq.com/ziyuan/api/142.html
 se窝资源网影视采集接口,https://www.yszzq.com/ziyuan/api/141.html
-新浪资源采集网采集接口大全,https://www.yszzq.com/ziyuan/api/140.html
-花魁影视资源站采集接口,https://www.yszzq.com/ziyuan/api/139.html
-金鹰资源网苹果CMS采集接口,https://www.yszzq.com/ziyuan/api/138.html
