@@ -1,5 +1,21 @@
 [
     {
+        "key": "五月X资源站采集接口",
+        "name": "五月X资源站采集接口",
+        "type": 1,
+        "api": "https://www.5yuezyapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
+        "key": "九月资源网采集接口",
+        "name": "九月资源网采集接口",
+        "type": 1,
+        "api": "https://api.jiuyueapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
         "key": "卧龙影视资源采集站采集接口",
         "name": "卧龙影视资源采集站采集接口",
         "type": 1,
