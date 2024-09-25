@@ -1,3 +1,4 @@
+百万资源网采集接口,https://www.yszzq.com/ziyuan/api/201.html
 五月X资源站采集接口,https://www.yszzq.com/ziyuan/api/200.html
 九月资源网采集接口,https://www.yszzq.com/ziyuan/api/199.html
 卧龙影视资源采集站采集接口,https://www.yszzq.com/ziyuan/api/197.html
@@ -45,4 +46,3 @@ GAY资源网采集接口,https://www.yszzq.com/ziyuan/api/168.html
 淘片资源采集网采集接口,https://www.yszzq.com/ziyuan/api/146.html
 探探资源采集接口中心,https://www.yszzq.com/ziyuan/api/145.html
 老鸭资源网采集接口,https://www.yszzq.com/ziyuan/api/144.html
-CK资源采集接口,https://www.yszzq.com/ziyuan/api/143.html

@@ -1,5 +1,13 @@
 [
     {
+        "key": "百万资源网采集接口",
+        "name": "百万资源网采集接口",
+        "type": 1,
+        "api": "https://api.baiwanapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
         "key": "五月X资源站采集接口",
         "name": "五月X资源站采集接口",
         "type": 1,

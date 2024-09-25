@@ -1,5 +1,11 @@
 [
     {
+        "key": "百万资源网采集接口",
+        "name": "百万资源网采集接口",
+        "api": "https://api.baiwanapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "五月X资源站采集接口",
         "name": "五月X资源站采集接口",
         "api": "https://www.5yuezyapi.com/api.php/provide/vod/at/xml",

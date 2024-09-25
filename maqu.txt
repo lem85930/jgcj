@@ -1,3 +1,4 @@
+百万资源网采集接口,https://api.baiwanapi.com/api.php/provide/vod/at/xml
 五月X资源站采集接口,https://www.5yuezyapi.com/api.php/provide/vod/at/xml
 九月资源网采集接口,https://api.jiuyueapi.com/api.php/provide/vod/at/xml
 卧龙影视资源采集站采集接口,https://collect.wolongzy.cc/api.php/provide/vod/at/xml
