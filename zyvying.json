@@ -1,5 +1,11 @@
 [
     {
+        "key": "极品X资源网采集接口",
+        "name": "极品X资源网采集接口",
+        "api": "https://jipinzyapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "百万资源网采集接口",
         "name": "百万资源网采集接口",
         "api": "https://api.baiwanapi.com/api.php/provide/vod/at/xml",
@@ -195,12 +201,6 @@
         "key": "探探资源采集接口中心",
         "name": "探探资源采集接口中心",
         "api": "https://apittzy.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "老鸭资源网采集接口",
-        "name": "老鸭资源网采集接口",
-        "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml",
         "useInSearchAll": true
     }
 ]
