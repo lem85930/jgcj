@@ -1,5 +1,11 @@
 [
     {
+        "key": "色戒X资源站采集接口",
+        "name": "色戒X资源站采集接口",
+        "api": "https://sjzy.tv/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "极品X资源网采集接口",
         "name": "极品X资源网采集接口",
         "api": "https://jipinzyapi.com/api.php/provide/vod/at/xml",
@@ -159,12 +165,6 @@
         "key": "奥斯卡资源API采集接口大全",
         "name": "奥斯卡资源API采集接口大全",
         "api": "https://aosikazy.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "探探资源采集接口中心",
-        "name": "探探资源采集接口中心",
-        "api": "https://apittzy.com/api.php/provide/vod/at/xml",
         "useInSearchAll": true
     }
 ]

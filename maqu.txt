@@ -1,3 +1,4 @@
+色戒X资源站采集接口,https://sjzy.tv/api.php/provide/vod/at/xml
 极品X资源网采集接口,https://jipinzyapi.com/api.php/provide/vod/at/xml
 百万资源网采集接口,https://api.baiwanapi.com/api.php/provide/vod/at/xml
 卧龙影视资源采集站采集接口,https://collect.wolongzy.cc/api.php/provide/vod/at/xml
@@ -25,4 +26,3 @@ GAY资源网采集接口,https://gayapi.com/api.php/provide/vod/at/xml
 全站资源网采集接口分享,https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/at/xml
 爱坤联盟资源网采集接口,https://ikunzyapi.com/api.php/seaxml/vod/at/xml
 奥斯卡资源API采集接口大全,https://aosikazy.com/api.php/provide/vod/at/xml
-探探资源采集接口中心,https://apittzy.com/api.php/provide/vod/at/xml
