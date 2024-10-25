@@ -102,48 +102,6 @@
         "useInSearchAll": true
     },
     {
-        "key": "丫丫资源网采集接口",
-        "name": "丫丫资源网采集接口",
-        "api": "https://cj.yayazy.net/api.php/provide/vod/from/yym3u8/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "老色逼资源站采集接口",
-        "name": "老色逼资源站采集接口",
-        "api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "优优资源网采集接口",
-        "name": "优优资源网采集接口",
-        "api": "https://jk1.yycmszywapi.cc/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "黑木耳资源站采集接口",
-        "name": "黑木耳资源站采集接口",
-        "api": "https://xml.heimuer.xyz/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "桃花资源采集网采集接口",
-        "name": "桃花资源采集网采集接口",
-        "api": "https://thzy1.me/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "玉兔资源采集接口",
-        "name": "玉兔资源采集接口",
-        "api": "https://apiyutu.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "GAY资源网采集接口",
-        "name": "GAY资源网采集接口",
-        "api": "https://gayapi.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "360资源站采集接口",
         "name": "360资源站采集接口",
         "api": "https://360zy.com/api.php/provide/vod/at/xml",
