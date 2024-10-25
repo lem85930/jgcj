@@ -12,7 +12,12 @@ urls = [
     "https://cfpgwztz.wofuck.us.kg/wztz/https/www.yszzq.com/tags/xmlcjjk_2",
     "https://cfpgwztz.wofuck.us.kg/wztz/https/www.yszzq.com/tags/xmlcjjk_3",
     "https://cfpgwztz.wofuck.us.kg/wztz/https/www.yszzq.com/tags/xmlcjjk_4",
-    "https://cfpgwztz.wofuck.us.kg/wztz/https/www.yszzq.com/tags/xmlcjjk_5"
+    "https://cfpgwztz.wofuck.us.kg/wztz/https/www.yszzq.com/tags/xmlcjjk_5",
+    "https://cfpgwztz.wofuck.us.kg/wztz/https/www.yszzq.com/tags/xmlcjjk_6",
+    "https://cfpgwztz.wofuck.us.kg/wztz/https/www.yszzq.com/tags/xmlcjjk_7",
+    "https://cfpgwztz.wofuck.us.kg/wztz/https/www.yszzq.com/tags/xmlcjjk_8",
+    "https://cfpgwztz.wofuck.us.kg/wztz/https/www.yszzq.com/tags/xmlcjjk_9",
+    "https://cfpgwztz.wofuck.us.kg/wztz/https/www.yszzq.com/tags/xmlcjjk_10"
 ]
 
 # 遍历请求多个网址
