@@ -1,5 +1,11 @@
 [
     {
+        "key": "如意资源网采集接口",
+        "name": "如意资源网采集接口",
+        "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "色戒X资源站采集接口",
         "name": "色戒X资源站采集接口",
         "api": "https://sjzy.tv/api.php/provide/vod/at/xml",
