@@ -62,4 +62,3 @@ S猫资源网苹果cmsV8采集接口,https://www.yszzq.com/ziyuan/api/136.html
 U酷资源网采集地址,https://www.yszzq.com/ziyuan/api/127.html
 百度资源M3U8 json接口,https://www.yszzq.com/ziyuan/api/123.html
 红牛云播资源采集地址,https://www.yszzq.com/ziyuan/api/119.html
-芒果资源网视频资源库接口,https://www.yszzq.com/ziyuan/api/116.html
