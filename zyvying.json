@@ -214,11 +214,5 @@
         "name": "百度资源M3U8 json接口",
         "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml",
         "useInSearchAll": true
-    },
-    {
-        "key": "红牛云播资源采集地址",
-        "name": "红牛云播资源采集地址",
-        "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
     }
 ]

@@ -286,13 +286,5 @@
         "api": "https://api.apibdzy.com/api.php/provide/vod/",
         "searchable": 1,
         "recordable": 0
-    },
-    {
-        "key": "红牛云播资源采集地址",
-        "name": "红牛云播资源采集地址",
-        "type": 1,
-        "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
     }
 ]
