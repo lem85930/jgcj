@@ -180,12 +180,6 @@
         "useInSearchAll": true
     },
     {
-        "key": "老鸭资源网采集接口",
-        "name": "老鸭资源网采集接口",
-        "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "新浪资源采集网采集接口大全",
         "name": "新浪资源采集网采集接口大全",
         "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml",

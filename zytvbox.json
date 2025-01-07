@@ -240,14 +240,6 @@
         "recordable": 0
     },
     {
-        "key": "老鸭资源网采集接口",
-        "name": "老鸭资源网采集接口",
-        "type": 1,
-        "api": "https://api.apilyzy.com/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
         "key": "新浪资源采集网采集接口大全",
         "name": "新浪资源采集网采集接口大全",
         "type": 1,
