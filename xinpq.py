@@ -7,17 +7,17 @@ all_results = []
 
 # 多个网址需要提取
 urls = [
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk/",
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_1",
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_2",
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_3",
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_4",
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_5",
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_6",
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_7",
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_8",
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_9",
-    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_10"
+    "https://www.yszzq.com/tags/xmlcjjk/",
+    "https://www.yszzq.com/tags/xmlcjjk_1",
+    "https://www.yszzq.com/tags/xmlcjjk_2",
+    "https://www.yszzq.com/tags/xmlcjjk_3",
+    "https://www.yszzq.com/tags/xmlcjjk_4",
+    "https://www.yszzq.com/tags/xmlcjjk_5",
+    "https://www.yszzq.com/tags/xmlcjjk_6",
+    "https://www.yszzq.com/tags/xmlcjjk_7",
+    "https://www.yszzq.com/tags/xmlcjjk_8",
+    "https://www.yszzq.com/tags/xmlcjjk_9",
+    "https://www.yszzq.com/tags/xmlcjjk_10"
 ]
 
 # 遍历请求多个网址
