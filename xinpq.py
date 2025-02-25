@@ -1,11 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
+from urllib.parse  import urljoin  # 更安全的URL拼接方式
 import re
 
-# 存储所有词语及其父节点的href属性值
 all_results = []
 
-# 多个网址需要提取
+# 添加浏览器头信息规避反爬
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'
+}
+
 urls = [
     "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk/",
     "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_1",
@@ -18,30 +22,43 @@ urls = [
     "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_8",
     "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_9",
     "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_10"
-]
+]  # 保持原有URL列表不变
 
-# 遍历请求多个网址
 for url in urls:
-    response = requests.get(url)
-    if response.status_code != 200:
-        continue  # 如果请求失败，跳过当前网址
-    soup = BeautifulSoup(response.content, "html.parser")
-    elements = soup.find_all(string=re.compile("接口|地址|资源库|资源网"))
-    for element in elements:
-        parent = element.find_parent("a")
-        if parent:
-            title = element
-            href = parent['href']
-            if href.startswith("http"):
-                full_href = href
-            else:
-                full_href = f"https://www.yszzq.com{href}"
-            # 检查词语是否包含"采集接口"，但不仅仅包含"采集接口"，如果是，则添加到结果中
-            if ("采集接口" in title or "采集地址" in title or "资源库" in title or "json" in title) and not title.strip() == "采集接口" and "XML采集接口" not in title:
-    # 这里是您的处理逻辑
-                all_results.append(f"{title},{full_href}\n")
+    try:
+        # 添加超时和请求头参数
+        response = requests.get(url,  headers=headers, timeout=10)
+        response.raise_for_status()   # 主动抛出HTTP错误
+        
+        # 明确指定解析器避免环境差异
+        soup = BeautifulSoup(response.text,  'lxml' if 'lxml' in locals() else 'html.parser') 
+        
+        # 优化正则表达式匹配模式
+        pattern = re.compile(r' 接口|地址|资源库|资源网|json', re.UNICODE)
+        elements = soup.find_all(string=pattern) 
 
-# 将结果写入pq.txt
-with open('pq.txt', 'w', encoding='utf-8') as file:
-    for result in all_results:
-        file.write(result)
+        for element in elements:
+            parent = element.find_parent('a') 
+            if not parent or not parent.has_attr('href'): 
+                continue
+                
+            # 使用urljoin处理相对路径
+            href = urljoin(url, parent['href'])
+            title = element.strip()   # 去除首尾空白字符
+            
+            # 优化过滤条件逻辑
+            if any(keyword in title for keyword in ["采集接口", "采集地址", "资源库"]) \
+            and "XML采集接口" not in title \
+            and title not in ["采集接口", "采集地址"]:
+                all_results.append(f"{title},{href}\n") 
+                # 添加控制台输出用于调试
+                print(f"Found: {title} -> {href}")
+
+    except Exception as e:
+        print(f"Error processing {url}: {str(e)}")
+        continue
+
+# 确保文件写入UTF-8编码
+with open('pq.txt',  'w', encoding='utf-8') as f:
+    f.writelines(all_results) 
+print(f"Total {len(all_results)} records saved.")  # 添加结果统计
