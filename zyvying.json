@@ -6,18 +6,6 @@
         "useInSearchAll": true
     },
     {
-        "key": "如意资源网采集接口",
-        "name": "如意资源网采集接口",
-        "api": "https://cj.rycjapi.com/api.php/provide/vod/from/ruyi/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "如意资源网采集接口",
-        "name": "如意资源网采集接口",
-        "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "百万资源网采集接口",
         "name": "百万资源网采集接口",
         "api": "https://api.baiwanapi.com/api.php/provide/vod/at/xml",
@@ -33,12 +21,6 @@
         "key": "樱花资源网采集接口",
         "name": "樱花资源网采集接口",
         "api": "https://m3u8.apiyhzy.com/api.php/seacms/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "樱花资源网采集接口",
-        "name": "樱花资源网采集接口",
-        "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml",
         "useInSearchAll": true
     },
     {
@@ -63,12 +45,6 @@
         "key": "jkun爱坤联盟资源网采集接口",
         "name": "jkun爱坤联盟资源网采集接口",
         "api": "https://jkunzyapi.com/api.php/seaxml/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "jkun爱坤联盟资源网采集接口",
-        "name": "jkun爱坤联盟资源网采集接口",
-        "api": "https://jkunzyapi.com/api.php/provide/vod/at/xml",
         "useInSearchAll": true
     },
     {
@@ -108,21 +84,9 @@
         "useInSearchAll": true
     },
     {
-        "key": "爱坤联盟资源网采集接口",
-        "name": "爱坤联盟资源网采集接口",
-        "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "金鹰资源网苹果CMS采集接口",
         "name": "金鹰资源网苹果CMS采集接口",
         "api": "https://jyzyapi.com/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "金鹰资源网苹果CMS采集接口",
-        "name": "金鹰资源网苹果CMS采集接口",
-        "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml",
         "useInSearchAll": true
     },
     {
@@ -132,33 +96,9 @@
         "useInSearchAll": true
     },
     {
-        "key": "光速资源站采集接口地址",
-        "name": "光速资源站采集接口地址",
-        "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "光速资源站采集接口地址",
-        "name": "光速资源站采集接口地址",
-        "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsyun/at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "天空资源网采集接口",
         "name": "天空资源网采集接口",
         "api": "https://api.tiankongapi.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "天空资源网采集接口",
-        "name": "天空资源网采集接口",
-        "api": "https://api.tiankongapi.com/api.php/provide/vod/from/tkm3u8/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "天空资源网采集接口",
-        "name": "天空资源网采集接口",
-        "api": "https://api.tiankongapi.com/api.php/provide/vod/from/tkyun/at/xml",
         "useInSearchAll": true
     }
 ]
