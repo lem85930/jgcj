@@ -1,90 +1,49 @@
 import requests 
 import re 
 import os 
-from urllib.parse  import urlparse 
-from time import sleep 
  
-# 增强请求头配置 
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'zh-CN,zh;q=0.9',
-    'Referer': 'https://www.yszzq.com/' 
-}
+# 读取pq.txt 中的每一行 
+with open('pq.txt',  'r', encoding='utf-8') as file:
+    lines = file.readlines() 
  
-TIMEOUT = 20 
-MAX_RETRY = 3 
- 
-# 修正后的正则表达式 
-URL_PATTERN = re.compile( 
-    r'https?:\/\/(?:[a-zA-Z0-9\-\.]+\.)*yszzq\.com[\w\/\-\.%]+at\/xml(?:\?[\w=&]*)?',
-    re.IGNORECASE 
-)
- 
-def add_proxy_prefix(url):
-    """动态代理路径转换"""
-    parsed = urlparse(url)
-    if 'yszzq.com'  in parsed.netloc: 
-        new_path = f"/wztz/https/{parsed.netloc}{parsed.path}" 
-        return parsed._replace(
-            scheme="https",
-            netloc="cfpgwztz.wofuck.rr.nu", 
-            path=new_path 
-        ).geturl()
-    return url 
- 
-if not os.path.exists('pq.txt'): 
-    raise FileNotFoundError("pq.txt  文件未找到")
- 
+# 存储结果的列表 
 results = []
  
-with open('pq.txt',  'r', encoding='utf-8') as file:
-    lines = [line.strip() for line in file if line.strip()] 
- 
+# 遍历每行并处理每个网址 
 for line in lines:
     try:
-        title, url = line.split(',',  1)
-        parsed = urlparse(url)
-        
-        if not all([parsed.scheme, parsed.netloc]): 
-            print(f"🚫 无效URL: {url}")
-            continue 
- 
-        success = False 
-        for retry in range(MAX_RETRY):
+        title, url = line.strip().split(',') 
+        attempts = 3  # 设置最大尝试次数 
+        while attempts > 0:
             try:
-                resp = requests.get(url,  headers=HEADERS, 
-                                  timeout=TIMEOUT + retry*3)
-                
-                # 处理特殊反爬机制 
-                if resp.status_code  == 403:
-                    print(f"⏳ 触发反爬 [{url}] 第{retry+1}次重试...")
-                    sleep(2 ** retry)
-                    continue 
-                
-                resp.raise_for_status() 
-                success = True 
-                break 
-                
-            except requests.exceptions.RequestException  as e:
-                print(f"⚠️ 请求异常: {type(e).__name__} - {str(e)[:50]}")
+                response = requests.get(url,  timeout=10)
+                if response.status_code  == 200:
+                    content = response.text  
+                    # 使用更简洁的正则表达式 
+                    match = re.search(r'(https?://[^"]+at/xml)',  content)
+                    if match:
+                        result = f"{title},{match.group(1)}" 
+                        results.append(result) 
+                    break  # 成功匹配后跳出循环 
+                else:
+                    print(f"请求失败，状态码：{response.status_code} ，URL：{url}")
+                    attempts -= 1 
+            except requests.RequestException as e:
+                print(f"请求异常：{str(e)}，URL：{url}")
+                attempts -= 1 
+        if attempts == 0:
+            print(f"经过多次尝试，无法访问URL：{url}")
+    except ValueError:
+        print(f"格式错误行：{line}")
  
-        if not success:
-            continue 
+# 将结果写入maqu.txt  
+with open('maqu.txt',  'w', encoding='utf-8') as file:
+    for result in results:
+        file.write(result  + '\n')
  
-        # 增强型匹配 
-        if matches := URL_PATTERN.findall(resp.text): 
-            for match in matches:
-                final_url = add_proxy_prefix(match)
-                results.append(f"{title},{final_url}") 
-                print(f"✅ 匹配成功: {title[:15]}... -> {final_url[:60]}...")
- 
-    except Exception as e:
-        print(f"❌ 处理异常: {str(e)[:50]}")
- 
-if results:
-    with open('maqu.txt',  'w', encoding='utf-8') as f:
-        f.write('\n'.join(results)) 
-    print(f"🎯 成功写入 {len(results)} 条记录")
-else:
-    print("⚠️ 无有效数据输出，建议检查：\n1. 源文件内容格式\n2. 网络请求成功率\n3. 正则匹配模式")
+# 清理临时文件（可选）
+# if os.path.exists(file_path): 
+#     os.remove(file_path) 
+#     print('pq.txt 已删除')
+# else:
+#     print('pq.txt 不存在')
