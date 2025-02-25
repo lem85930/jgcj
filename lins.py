@@ -17,18 +17,21 @@ for line in lines:
         title, base_url = line.strip().split(',') 
         for _ in range(3):  # 重试 3 次 
             try:
-                response = requests.get(base_url,  headers=headers, timeout=10)
+                response = requests.get(base_url.strip(),  headers=headers, timeout=10)
                 if response.status_code  == 200:
-                    # 精准匹配 data-clipboard-text 属性中的完整 URL 
-                    matches = re.findall( 
-                        r"data-clipboard-text='(https?://[^\']+?at/xml/?)(?=\')", 
+                    # 精准匹配首个 data-clipboard-text 中的链接 
+                    match = re.search( 
+                        r"data-clipboard-text=['\"](https?://[^'\"]+?at/xml/?)/?['\"]", 
                         response.text  
                     )
-                    # 去重处理 
-                    unique_matches = list(dict.fromkeys(matches)) 
-                    for url in unique_matches:
-                        results.append(f"{title},{url}") 
-                    break 
+                    if match:
+                        # 统一规范链接格式（去除尾部斜杠）
+                        clean_url = match.group(1).rstrip('/') 
+                        results.append(f"{title},{clean_url}/")   # 保留结构斜杠 
+                        break  # 获取到首个链接即终止重试 
+                    else:
+                        print(f"未找到有效接口，URL：{base_url}")
+                        break  # 无匹配时也终止重试 
                 else:
                     print(f"请求失败，状态码：{response.status_code} ，URL：{base_url}")
             except Exception as e:
