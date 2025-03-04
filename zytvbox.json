@@ -1,5 +1,13 @@
 [
     {
+        "key": "X细胞资源网采集接口",
+        "name": "X细胞资源网采集接口",
+        "type": 1,
+        "api": "https://www.xxibaozyw.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
         "key": "如意资源网采集接口",
         "name": "如意资源网采集接口",
         "type": 1,

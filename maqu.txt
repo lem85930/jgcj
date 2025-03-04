@@ -1,3 +1,4 @@
+X细胞资源网采集接口,https://www.xxibaozyw.com/api.php/provide/vod/at/xml/
 如意资源网采集接口,https://cj.rycjapi.com/api.php/provide/vod/at/xml/
 百万资源网采集接口,https://api.baiwanapi.com/api.php/provide/vod/at/xml/
 无尽资源网采集接口,https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/xml/

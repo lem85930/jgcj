@@ -1,5 +1,11 @@
 [
     {
+        "key": "X细胞资源网采集接口",
+        "name": "X细胞资源网采集接口",
+        "api": "https://www.xxibaozyw.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "如意资源网采集接口",
         "name": "如意资源网采集接口",
         "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml",
