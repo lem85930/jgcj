@@ -54,7 +54,7 @@ for index, url in enumerate(urls):
         response.raise_for_status() 
         
         soup = BeautifulSoup(response.text,  'lxml')
-        pattern = re.compile(r' 接口|地址|资源库|资源网|json[\u4e00-\u9fa5]*', re.UNICODE)
+        pattern = re.compile(r' 接口|地址|API|资源库|资源网|json[\u4e00-\u9fa5]*', re.UNICODE)
         
         for element in soup.find_all(string=pattern): 
             parent = element.find_parent('a') 
