@@ -13,6 +13,7 @@ jkun爱坤联盟资源网采集接口,https://jkunzyapi.com/api.php/seaxml/vod/a
 GAY资源网采集接口,https://gayapi.com/api.php/provide/vod/at/xml/
 全站资源网采集接口分享,https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/at/xml/
 爱坤联盟资源网采集接口,https://ikunzyapi.com/api.php/seaxml/vod/at/xml/
+奥斯卡资源API采集接口大全,https://aosikazy.com/api.php/provide/vod/at/xml/
 金鹰资源网苹果CMS采集接口,https://jyzyapi.com/provide/vod/at/xml/
 光速资源站采集接口地址,https://api.guangsuapi.com/api.php/provide/vod/at/xml/
 天空资源网采集接口,https://api.tiankongapi.com/api.php/provide/vod/at/xml/

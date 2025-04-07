@@ -90,6 +90,12 @@
         "useInSearchAll": true
     },
     {
+        "key": "奥斯卡资源API采集接口大全",
+        "name": "奥斯卡资源API采集接口大全",
+        "api": "https://aosikazy.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "金鹰资源网苹果CMS采集接口",
         "name": "金鹰资源网苹果CMS采集接口",
         "api": "https://jyzyapi.com/provide/vod/at/xml",
