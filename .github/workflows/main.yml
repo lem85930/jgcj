@@ -33,9 +33,11 @@ jobs:
         
       - name: Run script
         run: |
-          python xinpq.py
+        
+          python xinxin.py
           python lins.py
           python jsonzyyidong.py
+          # python xinpq.py
         # 替换为您的Python脚本文件名(运行不了了，能运行放最前面）
       - name: Commit results
         run: |
