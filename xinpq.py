@@ -77,7 +77,7 @@ for index, url in enumerate(urls):
             if "/ziyuan/api/" in final_url:
                 print(f"Debug - Generated URL: {final_url}")
                 
-            if ("采集接口" in title or "资源库" in title or "采集API接口" in title or "资源网" in title) \
+            if ("采集接口" in title or "资源库" in title or "采集API接口" in title ) \
             and "XML" not in title:
                 all_results.append(f"{title},{final_url}") 
                 print(f"✅ Valid: {title[:15]}... -> {final_url[:50]}...")
