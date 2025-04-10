@@ -1,5 +1,11 @@
 [
     {
+        "key": "黄色仓库资源采集网采集接口",
+        "name": "黄色仓库资源采集网采集接口",
+        "api": "https://hsckzy.vip/api.php/provide/vod/from/hsckm3u8/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "X细胞资源网采集接口",
         "name": "X细胞资源网采集接口",
         "api": "https://www.xxibaozyw.com/api.php/provide/vod/at/xml",
