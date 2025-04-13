@@ -1,3 +1,4 @@
+无线资源网采集接口,https://api.wuxianzy.net/api.php/provide/vod/at/xml/
 黄色仓库资源采集网采集接口,https://hsckzy.vip/api.php/provide/vod/from/hsckm3u8/at/xml/
 X细胞资源网采集接口,https://www.xxibaozyw.com/api.php/provide/vod/at/xml/
 搜av资源站采集接口,https://api.souavzy.vip/api.php/provide/vod/at/xml/

@@ -1,5 +1,13 @@
 [
     {
+        "key": "无线资源网采集接口",
+        "name": "无线资源网采集接口",
+        "type": 1,
+        "api": "https://api.wuxianzy.net/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
         "key": "黄色仓库资源采集网采集接口",
         "name": "黄色仓库资源采集网采集接口",
         "type": 1,

@@ -1,5 +1,11 @@
 [
     {
+        "key": "无线资源网采集接口",
+        "name": "无线资源网采集接口",
+        "api": "https://api.wuxianzy.net/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "黄色仓库资源采集网采集接口",
         "name": "黄色仓库资源采集网采集接口",
         "api": "https://hsckzy.vip/api.php/provide/vod/from/hsckm3u8/at/xml",
