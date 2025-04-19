@@ -1,5 +1,13 @@
 [
     {
+        "key": "茅台资源站采集接口",
+        "name": "茅台资源站采集接口",
+        "type": 1,
+        "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
         "key": "无线资源网采集接口",
         "name": "无线资源网采集接口",
         "type": 1,
