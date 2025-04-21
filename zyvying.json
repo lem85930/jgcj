@@ -1,5 +1,11 @@
 [
     {
+        "key": "杏吧资源站采集接口",
+        "name": "杏吧资源站采集接口",
+        "api": "https://xingba111.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "茅台资源站采集接口",
         "name": "茅台资源站采集接口",
         "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml",
@@ -120,12 +126,6 @@
         "useInSearchAll": true
     },
     {
-        "key": "优优资源网采集接口",
-        "name": "优优资源网采集接口",
-        "api": "https://jk1.yycmszywapi.cc/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "桃花资源采集网采集接口",
         "name": "桃花资源采集网采集接口",
         "api": "https://thzy1.me/api.php/provide/vod/at/xml",
@@ -189,12 +189,6 @@
         "key": "光速资源站采集接口地址",
         "name": "光速资源站采集接口地址",
         "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "天空资源网采集接口",
-        "name": "天空资源网采集接口",
-        "api": "https://api.tiankongapi.com/api.php/provide/vod/at/xml",
         "useInSearchAll": true
     }
 ]
