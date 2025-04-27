@@ -29,17 +29,17 @@ headers = {
 }
  
 urls = [
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk/",
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_1",
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_2",
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_3",
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_4",
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_5",
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_6",
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_7",
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_8",
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_9",
-    "https://cfpgwztz.wofuck.rr.nu/wztz/https/www.yszzq.com/tags/xmlcjjk_10"
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk/",
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_1",
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_2",
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_3",
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_4",
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_5",
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_6",
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_7",
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_8",
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_9",
+    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_10"
 ]
  
 all_results = []
@@ -71,7 +71,7 @@ for index, url in enumerate(urls):
                 # 相对路径处理 
                 if not raw_href.startswith('/'): 
                     raw_href = '/' + raw_href.lstrip('./') 
-                final_url = f"https://cfpgwztz.wofuck.rr.nu{PROXY_PATH}{raw_href}" 
+                final_url = f"https://cfwztz.wofuck.dpdns.org{PROXY_PATH}{raw_href}" 
  
             # 验证示例格式 
             if "/ziyuan/api/" in final_url:
