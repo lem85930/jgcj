@@ -15,7 +15,7 @@ def build_proxy_url(original_url):
         new_path = f"{PROXY_PATH}{parsed.path}" 
         return urlunparse((
             parsed.scheme, 
-            "cfpgwztz.wofuck.rr.nu", 
+            "cfwztz.wofuck.dpdns.org", 
             new_path,
             parsed.params, 
             parsed.query, 
