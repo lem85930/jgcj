@@ -1,3 +1,4 @@
+电影天堂采集综合资源接口,http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/
 杏吧资源站采集接口,https://xingba111.com/api.php/provide/vod/at/xml/
 茅台资源站采集接口,https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/
 无线资源网采集接口,https://api.wuxianzy.net/api.php/provide/vod/at/xml/

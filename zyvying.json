@@ -1,5 +1,11 @@
 [
     {
+        "key": "电影天堂采集综合资源接口",
+        "name": "电影天堂采集综合资源接口",
+        "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "杏吧资源站采集接口",
         "name": "杏吧资源站采集接口",
         "api": "https://xingba111.com/api.php/provide/vod/at/xml",
