@@ -1,10 +1,10 @@
 import json
 import os
 
-# 定义两个空列表，分别用于存储两种格式的数据
+# 定义三个空列表，分别用于存储两种格式的数据
 data_list_for_converted = []
 data_list_for_zytvbox = []
-
+data_list_for_ysdqbox = []
 # 打开并读取maqu.txt文件
 with open('maqu.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
@@ -37,19 +37,31 @@ for line in lines:
             "recordable": 0
         }
         data_list_for_zytvbox.append(data_dict_for_zytvbox)
-
-# 将两种格式的数据列表分别转换为JSON格式的字符串
+                # 构建字典并添加到ysdq_data列表中
+        data_dict_for_ysdqbox = {
+            "type": "",
+            "sourceName": name,
+            "baseUrl": "",
+            "apiUrl": api_url+ 'at/xml',
+		    "searchUrl": "",
+		    "detailUrl": "",
+		    "parserUrl": ""
+        }
+        data_list_for_ysdqbox.append(data_dict_for_ysdqbox)
+# 将三种格式的数据列表分别转换为JSON格式的字符串
 json_data_converted = json.dumps(data_list_for_converted, ensure_ascii=False, indent=4)
 json_data_zytvbox = json.dumps(data_list_for_zytvbox, ensure_ascii=False, indent=4)
-
+json_data_ysdqbox = json.dumps(data_list_for_ysdqbox, ensure_ascii=False, indent=4)
 # 将两种格式的JSON数据分别写入到新的文件中
 with open('zyvying.json', 'w', encoding='utf-8') as json_file_converted:
     json_file_converted.write(json_data_converted)
 
 with open('zytvbox.json', 'w', encoding='utf-8') as json_file_zytvbox:
     json_file_zytvbox.write(json_data_zytvbox)
-
-print("转换完成，数据已保存到zyvying.json和zytvbox.json文件中。")
+    
+with open('ysdqbox.json', 'w', encoding='utf-8') as json_file_ysdqbox:
+    json_file_ysdqbox.write(json_data_ysdqbox)
+print("转换完成，数据已保存到zyvying.json和zytvbox.json和ysdqbox.json文件中。")
 file_path = 'maqu.txt'
 
 #if os.path.exists(file_path):
