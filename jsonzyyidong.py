@@ -43,9 +43,9 @@ for line in lines:
             "sourceName": name,
             "baseUrl": "",
             "apiUrl": api_url+ 'at/xml',
-		    "searchUrl": "",
-		    "detailUrl": "",
-		    "parserUrl": ""
+	    "searchUrl": "",
+	    "detailUrl": "",
+	    "parserUrl": ""
         }
         data_list_for_ysdqbox.append(data_dict_for_ysdqbox)
 # 将三种格式的数据列表分别转换为JSON格式的字符串
@@ -61,6 +61,7 @@ with open('zytvbox.json', 'w', encoding='utf-8') as json_file_zytvbox:
     
 with open('ysdqbox.json', 'w', encoding='utf-8') as json_file_ysdqbox:
     json_file_ysdqbox.write(json_data_ysdqbox)
+	
 print("转换完成，数据已保存到zyvying.json和zytvbox.json和ysdqbox.json文件中。")
 file_path = 'maqu.txt'
 
