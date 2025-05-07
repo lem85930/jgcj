@@ -42,7 +42,7 @@ jobs:
           git config --local user.email "chenhua.xu@qq.com"
           git config --local user.name "wokaotianshi123"
           if [ -n "$(git status --porcelain)" ]; then
-            git add zytvbox.json zyvying.json pq.txt maqu.txt
+            git add zytvbox.json zyvying.json pq.txt maqu.txt ysdqbox.json
             git commit -m "Automatic update"
             git push
           else
