@@ -39,8 +39,8 @@ jobs:
         # 替换为您的Python脚本文件名(运行不了了，能运行放最前面）
       - name: Commit results
         run: |
-          git config --local user.email "chenhua.xu@qq.com"
-          git config --local user.name "wokaotianshi123"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Action"
           if [ -n "$(git status --porcelain)" ]; then
             git add zytvbox.json zyvying.json pq.txt maqu.txt ysdqbox.json
             git commit -m "Automatic update"
