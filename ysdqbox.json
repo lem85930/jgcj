@@ -1,6 +1,15 @@
 [
     {
         "type": "",
+        "sourceName": "天涯影视资源网采集接口",
+        "baseUrl": "",
+        "apiUrl": "https://tyyszyapi.com/api.php/provide/vod/at/xml",
+        "searchUrl": "",
+        "detailUrl": "",
+        "parserUrl": ""
+    },
+    {
+        "type": "",
         "sourceName": "爱奇艺资源站采集接口",
         "baseUrl": "",
         "apiUrl": "https://iqiyizyapi.com/api.php/provide/vod/at/xml",
@@ -109,6 +118,15 @@
     },
     {
         "type": "",
+        "sourceName": "卧龙影视资源采集站采集接口",
+        "baseUrl": "",
+        "apiUrl": "https://collect.wolongzy.cc/api.php/provide/vod/at/xml",
+        "searchUrl": "",
+        "detailUrl": "",
+        "parserUrl": ""
+    },
+    {
+        "type": "",
         "sourceName": "丝袜资源采集网采集接口",
         "baseUrl": "",
         "apiUrl": "https://siwazyw.tv/api.php/provide/vod/at/xml",
@@ -211,6 +229,15 @@
         "sourceName": "老色逼资源站采集接口",
         "baseUrl": "",
         "apiUrl": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+        "searchUrl": "",
+        "detailUrl": "",
+        "parserUrl": ""
+    },
+    {
+        "type": "",
+        "sourceName": "黑木耳资源站采集接口",
+        "baseUrl": "",
+        "apiUrl": "https://xml.heimuer.xyz/api.php/provide/vod/at/xml",
         "searchUrl": "",
         "detailUrl": "",
         "parserUrl": ""

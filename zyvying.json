@@ -1,5 +1,11 @@
 [
     {
+        "key": "天涯影视资源网采集接口",
+        "name": "天涯影视资源网采集接口",
+        "api": "https://tyyszyapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "爱奇艺资源站采集接口",
         "name": "爱奇艺资源站采集接口",
         "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml",
@@ -72,6 +78,12 @@
         "useInSearchAll": true
     },
     {
+        "key": "卧龙影视资源采集站采集接口",
+        "name": "卧龙影视资源采集站采集接口",
+        "api": "https://collect.wolongzy.cc/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "丝袜资源采集网采集接口",
         "name": "丝袜资源采集网采集接口",
         "api": "https://siwazyw.tv/api.php/provide/vod/at/xml",
@@ -141,6 +153,12 @@
         "key": "老色逼资源站采集接口",
         "name": "老色逼资源站采集接口",
         "api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "key": "黑木耳资源站采集接口",
+        "name": "黑木耳资源站采集接口",
+        "api": "https://xml.heimuer.xyz/api.php/provide/vod/at/xml",
         "useInSearchAll": true
     },
     {
