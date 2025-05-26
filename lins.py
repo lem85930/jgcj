@@ -21,7 +21,8 @@ for line in lines:
                 if response.status_code  == 200:
                     # 精准匹配首个 data-clipboard-text 中的链接 
                     match = re.search( 
-                        r"data-clipboard-text=['\"](https?://[^'\"]+?at/xml/?)/?['\"]", 
+                     # r"data-clipboard-text=['\"](https?://[^'\"]+?at/xml/?)/?['\"]", 
+                     r"data-clipboard-text=['\"](https?://[^'\"]+?at/xml(?:/.*)?)['\"]",
                         response.text  
                     )
                     if match:
