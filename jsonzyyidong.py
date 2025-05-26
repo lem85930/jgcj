@@ -1,11 +1,16 @@
 import json
 import os
+import itertools
 
 # 定义四个空列表，分别用于存储两种格式的数据
 data_list_for_converted = []
 data_list_for_zytvbox = []
 data_list_for_ysdqbox = []
 data_list_for_zypcbox = []
+
+# 初始化数字递增生成器（从1开始）
+id_counter = itertools.count(1)  # 新增代码
+
 # 打开并读取maqu.txt文件
 with open('maqu.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
@@ -53,14 +58,14 @@ for line in lines:
         data_dict_for_zypcbox = {
 	    "key": name,
             "name": name,
-	    "api": api_url,
+	    "api": api_url+ 'at/xml',
             "playUrl": "",
-            "search": "",
-            "group": "",
-            "status": "",
-	    "type": "",
-            "id": "",
-	    "isActive": "TRUE",
+            "search": 1,
+            "group": "切片",
+            "status": true,
+	    "type": 0,
+            "id": str(next(id_counter)),
+	    "isActive": true,
 	    "resource": "",
 	    "download": ""
         }
