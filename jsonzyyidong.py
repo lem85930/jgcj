@@ -38,7 +38,7 @@ for line in lines:
             "recordable": 0
         }
         data_list_for_zytvbox.append(data_dict_for_zytvbox)
-                # 构建字典并添加到ysdq_data列表中
+        # 构建字典并添加到ysdq_data列表中
         data_dict_for_ysdqbox = {
             "type": "",
             "sourceName": name,
@@ -48,10 +48,9 @@ for line in lines:
 	    "detailUrl": "",
 	    "parserUrl": ""
         }
-       data_list_for_ysdqbox.append(data_dict_for_ysdqbox)
-
-                # 构建字典并添加到zypc_data列表中
-       data_dict_for_zypcbox = {
+        data_list_for_ysdqbox.append(data_dict_for_ysdqbox)
+        # 构建字典并添加到zypc_data列表中
+        data_dict_for_zypcbox = {
 	    "key": name,
             "name": name,
 	    "api": api_url,
@@ -65,7 +64,7 @@ for line in lines:
 	    "resource": "",
 	    "download": ""
         }
-       data_list_for_zypcbox.append(data_dict_for_zypcbox)
+        data_list_for_zypcbox.append(data_dict_for_zypcbox)
 # 将四种格式的数据列表分别转换为JSON格式的字符串
 json_data_converted = json.dumps(data_list_for_converted, ensure_ascii=False, indent=4)
 json_data_zytvbox = json.dumps(data_list_for_zytvbox, ensure_ascii=False, indent=4)
