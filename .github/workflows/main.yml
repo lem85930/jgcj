@@ -42,7 +42,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
           if [ -n "$(git status --porcelain)" ]; then
-            git add zytvbox.json zyvying.json pq.txt maqu.txt ysdqbox.json
+            git add zytvbox.json zyvying.json pq.txt maqu.txt ysdqbox.json zypcbox.json
             git commit -m "Automatic update"
             git push
           else
