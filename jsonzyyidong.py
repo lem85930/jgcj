@@ -62,10 +62,10 @@ for line in lines:
             "playUrl": "",
             "search": 1,
             "group": "切片",
-            "status": true,
+            "status": True,
 	    "type": 0,
             "id": str(next(id_counter)),
-	    "isActive": true,
+	    "isActive": True,
 	    "resource": "",
 	    "download": ""
         }
