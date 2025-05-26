@@ -1,10 +1,11 @@
 import json
 import os
 
-# 定义三个空列表，分别用于存储两种格式的数据
+# 定义四个空列表，分别用于存储两种格式的数据
 data_list_for_converted = []
 data_list_for_zytvbox = []
 data_list_for_ysdqbox = []
+data_list_for_zypcbox = []
 # 打开并读取maqu.txt文件
 with open('maqu.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
@@ -47,12 +48,30 @@ for line in lines:
 	    "detailUrl": "",
 	    "parserUrl": ""
         }
-        data_list_for_ysdqbox.append(data_dict_for_ysdqbox)
-# 将三种格式的数据列表分别转换为JSON格式的字符串
+ data_list_for_ysdqbox.append(data_dict_for_ysdqbox)
+	 data_list_for_zypcbox.append(data_dict_for_zypcbox)
+                # 构建字典并添加到zypc_data列表中
+        data_dict_for_zypcbox = {
+	    "key": name,
+            "name": name,
+	    "api": api_url,
+            "playUrl": "",
+            "search": "",
+            "group": "",
+            "status": "",
+	    "type": "",
+            "id": "",
+	    "isActive": "TRUE",
+	    "resource": "",
+	    "download": ""
+        }
+
+# 将四种格式的数据列表分别转换为JSON格式的字符串
 json_data_converted = json.dumps(data_list_for_converted, ensure_ascii=False, indent=4)
 json_data_zytvbox = json.dumps(data_list_for_zytvbox, ensure_ascii=False, indent=4)
 json_data_ysdqbox = json.dumps(data_list_for_ysdqbox, ensure_ascii=False, indent=4)
-# 将两种格式的JSON数据分别写入到新的文件中
+json_data_zypcbox = json.dumps(data_list_for_zypcbox, ensure_ascii=False, indent=4)
+# 将四种格式的JSON数据分别写入到新的文件中
 with open('zyvying.json', 'w', encoding='utf-8') as json_file_converted:
     json_file_converted.write(json_data_converted)
 
@@ -62,7 +81,10 @@ with open('zytvbox.json', 'w', encoding='utf-8') as json_file_zytvbox:
 with open('ysdqbox.json', 'w', encoding='utf-8') as json_file_ysdqbox:
     json_file_ysdqbox.write(json_data_ysdqbox)
 	
-print("转换完成，数据已保存到zyvying.json和zytvbox.json和ysdqbox.json文件中。")
+with open('zypcbox.json', 'w', encoding='utf-8') as json_file_zypcbox:
+    json_file_zypcbox.write(json_data_zypcbox)
+	
+print("转换完成，数据已保存到zyvying.json和zytvbox.json和ysdqbox.json和zypc.json文件中。")
 file_path = 'maqu.txt'
 
 #if os.path.exists(file_path):
