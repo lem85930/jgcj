@@ -54,5 +54,5 @@ for line in lines:
         print(f"格式错误行：{line}")
         results.append(f"{line.strip()},格式错误")
 
-with open('mq.txt', 'w', encoding='utf-8') as file:
+with open('maqu.txt', 'w', encoding='utf-8') as file:
     file.write('\n'.join(results))
