@@ -15,7 +15,7 @@ def build_proxy_url(original_url):
         new_path = f"{PROXY_PATH}{parsed.path}" 
         return urlunparse((
             parsed.scheme, 
-            "cfwztz.wofuck.dpdns.org", 
+            "wztz.wokaotianshi.eu.org", 
             new_path,
             parsed.params, 
             parsed.query, 
@@ -29,17 +29,17 @@ headers = {
 }
  
 urls = [
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk/",
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_1",
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_2",
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_3",
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_4",
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_5",
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_6",
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_7",
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_8",
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_9",
-    "https://cfwztz.wofuck.dpdns.org/wztz/https/www.yszzq.com/tags/xmlcjjk_10"
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk/",
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_1",
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_2",
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_3",
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_4",
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_5",
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_6",
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_7",
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_8",
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_9",
+    "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk_10"
 ]
  
 all_results = []
@@ -71,7 +71,7 @@ for index, url in enumerate(urls):
                 # 相对路径处理 
                 if not raw_href.startswith('/'): 
                     raw_href = '/' + raw_href.lstrip('./') 
-                final_url = f"https://cfwztz.wofuck.dpdns.org{PROXY_PATH}{raw_href}" 
+                final_url = f"https://wztz.wokaotianshi.eu.org{PROXY_PATH}{raw_href}" 
  
             # 验证示例格式 
             if "/ziyuan/api/" in final_url:
