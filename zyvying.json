@@ -54,12 +54,6 @@
         "useInSearchAll": true
     },
     {
-        "key": "小鸡资源采集站采集API接口",
-        "name": "小鸡资源采集站采集API接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "X细胞资源网采集接口",
         "name": "X细胞资源网采集接口",
         "api": "https://www.xxibaozyw.com/api.php/provide/vod/at/xml",
@@ -78,21 +72,9 @@
         "useInSearchAll": true
     },
     {
-        "key": "豆瓣资源采集站采集接口大全",
-        "name": "豆瓣资源采集站采集接口大全",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "如意资源网采集接口",
         "name": "如意资源网采集接口",
         "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "色戒X资源站采集接口",
-        "name": "色戒X资源站采集接口",
-        "api": "未找到有效链接at/xml",
         "useInSearchAll": true
     },
     {
@@ -105,18 +87,6 @@
         "key": "百万资源网采集接口",
         "name": "百万资源网采集接口",
         "api": "https://api.baiwanapi.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "五月X资源站采集接口",
-        "name": "五月X资源站采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "九月资源网采集接口",
-        "name": "九月资源网采集接口",
-        "api": "未找到有效链接at/xml",
         "useInSearchAll": true
     },
     {
@@ -153,12 +123,6 @@
         "key": "麒麟资源站全站采集接口",
         "name": "麒麟资源站全站采集接口",
         "api": "https://www.qilinzyz.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "快车资源采集站采集接口",
-        "name": "快车资源采集站采集接口",
-        "api": "未找到有效链接at/xml",
         "useInSearchAll": true
     },
     {
@@ -222,24 +186,6 @@
         "useInSearchAll": true
     },
     {
-        "key": "越南资源网采集接口",
-        "name": "越南资源网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "好色资源网采集接口地址",
-        "name": "好色资源网采集接口地址",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "色色虎资源网采集接口",
-        "name": "色色虎资源网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "丫丫资源网采集接口",
         "name": "丫丫资源网采集接口",
         "api": "https://cj.yayazy.net/api.php/provide/vod/at/xml",
@@ -249,12 +195,6 @@
         "key": "老色逼资源站采集接口",
         "name": "老色逼资源站采集接口",
         "api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "优优资源网采集接口",
-        "name": "优优资源网采集接口",
-        "api": "未找到有效链接at/xml",
         "useInSearchAll": true
     },
     {
@@ -288,54 +228,6 @@
         "useInSearchAll": true
     },
     {
-        "key": "久久热资源网采集接口",
-        "name": "久久热资源网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "夸克资源网采集接口",
-        "name": "夸克资源网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "乐视资源网采集接口大全",
-        "name": "乐视资源网采集接口大全",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "全站资源网采集接口分享",
-        "name": "全站资源网采集接口分享",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "大漠资源采集接口",
-        "name": "大漠资源采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "索尼资源网采集接口大全",
-        "name": "索尼资源网采集接口大全",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "狼友会资源网采集接口",
-        "name": "狼友会资源网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "红袖资源网采集接口",
-        "name": "红袖资源网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "爱坤联盟资源网采集接口",
         "name": "爱坤联盟资源网采集接口",
         "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
@@ -348,87 +240,15 @@
         "useInSearchAll": true
     },
     {
-        "key": "速看资源网采集接口大全",
-        "name": "速看资源网采集接口大全",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "523资源网采集接口",
-        "name": "523资源网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "阳光资源网采集接口",
-        "name": "阳光资源网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "188资源网采集接口大全",
-        "name": "188资源网采集接口大全",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "淘片资源采集网采集接口",
-        "name": "淘片资源采集网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "探探资源采集接口中心",
         "name": "探探资源采集接口中心",
         "api": "https://apittzy.com/api.php/provide/vod/at/xml",
         "useInSearchAll": true
     },
     {
-        "key": "老鸭资源网采集接口",
-        "name": "老鸭资源网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "CK资源采集接口",
         "name": "CK资源采集接口",
         "api": "https://ckzy.me/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "量子资源网资源采集接口",
-        "name": "量子资源网资源采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "se窝资源网影视采集接口",
-        "name": "se窝资源网影视采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "新浪资源采集网采集接口大全",
-        "name": "新浪资源采集网采集接口大全",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "花魁影视资源站采集接口",
-        "name": "花魁影视资源站采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "金鹰资源网苹果CMS采集接口",
-        "name": "金鹰资源网苹果CMS采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "阿远采集资源网苹果CMSV8采集接口",
-        "name": "阿远采集资源网苹果CMSV8采集接口",
-        "api": "未找到有效链接at/xml",
         "useInSearchAll": true
     },
     {
@@ -441,18 +261,6 @@
         "key": "光速资源站采集接口地址",
         "name": "光速资源站采集接口地址",
         "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "天空资源网采集接口",
-        "name": "天空资源网采集接口",
-        "api": "未找到有效链接at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "芒果资源网视频资源库接口",
-        "name": "芒果资源网视频资源库接口",
-        "api": "未找到有效链接at/xml",
         "useInSearchAll": true
     }
 ]
