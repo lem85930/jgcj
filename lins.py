@@ -1,45 +1,58 @@
-import requests 
-import re 
-import time 
- 
+import requests
+import re
+import time
+import urllib.parse
+
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Referer": "https://www.yszzq.com/" 
 }
- 
-with open('pq.txt',  'r', encoding='utf-8') as file:
+
+with open('pq.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines() 
- 
+
 results = []
- 
+
 for line in lines:
     try:
-        title, base_url = line.strip().split(',') 
+        title, base_url = line.strip().split(',', 1)  # 只分割一次，避免名称中有逗号
+        base_url = base_url.strip()
+        found = False
+        
         for _ in range(3):  # 重试 3 次 
             try:
-                response = requests.get(base_url.strip(),  headers=headers, timeout=10)
-                if response.status_code  == 200:
-                    # 精准匹配首个 data-clipboard-text 中的链接 
-                    match = re.search( 
-                     # r"data-clipboard-text=['\"](https?://[^'\"]+?at/xml/?)/?['\"]", 
-                     r"data-clipboard-text=['\"](https?://[^'\"]+?at/xml(?:/.*)?)['\"]",
-                        response.text  
+                response = requests.get(base_url, headers=headers, timeout=15)
+                if response.status_code == 200:
+                    # 匹配包含/api.php的链接
+                    match = re.search(
+                        r'["\'](https?://[^"\']+?)/api\.php["\']', 
+                        response.text
                     )
+                    
                     if match:
-                        # 统一规范链接格式（去除尾部斜杠）
-                        clean_url = match.group(1).rstrip('/') 
-                        results.append(f"{title},{clean_url}/")   # 保留结构斜杠 
-                        break  # 获取到首个链接即终止重试 
+                        # 提取域名部分
+                        domain_part = match.group(1)
+                        # 构建新链接
+                        new_url = f"{domain_part}/api.php/provide/vod/at/xml/"
+                        results.append(f"{title},{new_url}")
+                        found = True
+                        print(f"成功提取：{title} -> {new_url}")
+                        break  # 获取到链接即终止重试
                     else:
-                        print(f"未找到有效接口，URL：{base_url}")
-                        break  # 无匹配时也终止重试 
+                        print(f"未找到包含/api.php的链接，URL：{base_url}")
+                        break
                 else:
-                    print(f"请求失败，状态码：{response.status_code} ，URL：{base_url}")
+                    print(f"请求失败，状态码：{response.status_code}，URL：{base_url}")
             except Exception as e:
                 print(f"请求异常：{str(e)}，URL：{base_url}")
             time.sleep(1)   # 每次请求间隔 1 秒 
+        
+        if not found:
+            results.append(f"{title},未找到有效链接")
+            
     except ValueError:
         print(f"格式错误行：{line}")
- 
-with open('maqu.txt',  'w', encoding='utf-8') as file:
-    file.write('\n'.join(results)) 
+        results.append(f"{line.strip()},格式错误")
+
+with open('mq.txt', 'w', encoding='utf-8') as file:
+    file.write('\n'.join(results))
