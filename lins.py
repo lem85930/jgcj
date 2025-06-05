@@ -69,12 +69,13 @@ for line in lines:
                 print(f"请求异常：{str(e)}，URL：{base_url}")
             time.sleep(1)   # 每次请求间隔 1 秒 
         
-        if not found:
-            results.append(f"{title},未找到有效链接")
+        # 移除未找到有效链接时的输出
+        # 原代码：if not found: results.append(f"{title},未找到有效链接")
             
     except ValueError:
         print(f"格式错误行：{line}")
-        results.append(f"{line.strip()},格式错误")
+        # 格式错误行也不输出
+        # 原代码：results.append(f"{line.strip()},格式错误")
 
 with open('maqu.txt', 'w', encoding='utf-8') as file:
     file.write('\n'.join(results))
