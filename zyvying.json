@@ -78,12 +78,6 @@
         "useInSearchAll": true
     },
     {
-        "key": "极品X资源网采集接口",
-        "name": "极品X资源网采集接口",
-        "api": "https://jipinzyapi.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "百万资源网采集接口",
         "name": "百万资源网采集接口",
         "api": "https://api.baiwanapi.com/api.php/provide/vod/at/xml",
@@ -123,12 +117,6 @@
         "key": "麒麟资源站全站采集接口",
         "name": "麒麟资源站全站采集接口",
         "api": "https://www.qilinzyz.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "易看资源网采集接口",
-        "name": "易看资源网采集接口",
-        "api": "https://api.ekanapi.com/api.php/provide/vod/at/xml",
         "useInSearchAll": true
     },
     {
@@ -216,12 +204,6 @@
         "useInSearchAll": true
     },
     {
-        "key": "GAY资源网采集接口",
-        "name": "GAY资源网采集接口",
-        "api": "https://gayapi.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
         "key": "360资源站采集接口",
         "name": "360资源站采集接口",
         "api": "https://360zy.com/api.php/provide/vod/at/xml",
@@ -237,12 +219,6 @@
         "key": "奥斯卡资源API采集接口大全",
         "name": "奥斯卡资源API采集接口大全",
         "api": "https://aosikazy.com/api.php/provide/vod/at/xml",
-        "useInSearchAll": true
-    },
-    {
-        "key": "探探资源采集接口中心",
-        "name": "探探资源采集接口中心",
-        "api": "https://apittzy.com/api.php/provide/vod/at/xml",
         "useInSearchAll": true
     },
     {

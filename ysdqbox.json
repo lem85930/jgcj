@@ -118,15 +118,6 @@
     },
     {
         "type": "",
-        "sourceName": "极品X资源网采集接口",
-        "baseUrl": "",
-        "apiUrl": "https://jipinzyapi.com/api.php/provide/vod/at/xml",
-        "searchUrl": "",
-        "detailUrl": "",
-        "parserUrl": ""
-    },
-    {
-        "type": "",
         "sourceName": "百万资源网采集接口",
         "baseUrl": "",
         "apiUrl": "https://api.baiwanapi.com/api.php/provide/vod/at/xml",
@@ -184,15 +175,6 @@
         "sourceName": "麒麟资源站全站采集接口",
         "baseUrl": "",
         "apiUrl": "https://www.qilinzyz.com/api.php/provide/vod/at/xml",
-        "searchUrl": "",
-        "detailUrl": "",
-        "parserUrl": ""
-    },
-    {
-        "type": "",
-        "sourceName": "易看资源网采集接口",
-        "baseUrl": "",
-        "apiUrl": "https://api.ekanapi.com/api.php/provide/vod/at/xml",
         "searchUrl": "",
         "detailUrl": "",
         "parserUrl": ""
@@ -325,15 +307,6 @@
     },
     {
         "type": "",
-        "sourceName": "GAY资源网采集接口",
-        "baseUrl": "",
-        "apiUrl": "https://gayapi.com/api.php/provide/vod/at/xml",
-        "searchUrl": "",
-        "detailUrl": "",
-        "parserUrl": ""
-    },
-    {
-        "type": "",
         "sourceName": "360资源站采集接口",
         "baseUrl": "",
         "apiUrl": "https://360zy.com/api.php/provide/vod/at/xml",
@@ -355,15 +328,6 @@
         "sourceName": "奥斯卡资源API采集接口大全",
         "baseUrl": "",
         "apiUrl": "https://aosikazy.com/api.php/provide/vod/at/xml",
-        "searchUrl": "",
-        "detailUrl": "",
-        "parserUrl": ""
-    },
-    {
-        "type": "",
-        "sourceName": "探探资源采集接口中心",
-        "baseUrl": "",
-        "apiUrl": "https://apittzy.com/api.php/provide/vod/at/xml",
         "searchUrl": "",
         "detailUrl": "",
         "parserUrl": ""

@@ -104,14 +104,6 @@
         "recordable": 0
     },
     {
-        "key": "极品X资源网采集接口",
-        "name": "极品X资源网采集接口",
-        "type": 1,
-        "api": "https://jipinzyapi.com/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
         "key": "百万资源网采集接口",
         "name": "百万资源网采集接口",
         "type": 1,
@@ -164,14 +156,6 @@
         "name": "麒麟资源站全站采集接口",
         "type": 1,
         "api": "https://www.qilinzyz.com/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
-        "key": "易看资源网采集接口",
-        "name": "易看资源网采集接口",
-        "type": 1,
-        "api": "https://api.ekanapi.com/api.php/provide/vod/",
         "searchable": 1,
         "recordable": 0
     },
@@ -288,14 +272,6 @@
         "recordable": 0
     },
     {
-        "key": "GAY资源网采集接口",
-        "name": "GAY资源网采集接口",
-        "type": 1,
-        "api": "https://gayapi.com/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
         "key": "360资源站采集接口",
         "name": "360资源站采集接口",
         "type": 1,
@@ -316,14 +292,6 @@
         "name": "奥斯卡资源API采集接口大全",
         "type": 1,
         "api": "https://aosikazy.com/api.php/provide/vod/",
-        "searchable": 1,
-        "recordable": 0
-    },
-    {
-        "key": "探探资源采集接口中心",
-        "name": "探探资源采集接口中心",
-        "type": 1,
-        "api": "https://apittzy.com/api.php/provide/vod/",
         "searchable": 1,
         "recordable": 0
     },
