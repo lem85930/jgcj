@@ -1,3 +1,4 @@
+快播资源网采集接口,https://gayapi.com/api.php/provide/vod/at/xml/
 大奶子资源网采集接口,https://apidanaizi.com/api.php/provide/vod/at/xml/
 天涯影视资源网采集接口,https://tyyszyapi.com/api.php/provide/vod/at/xml/
 爱奇艺资源站采集接口,https://iqiyizyapi.com/api.php/provide/vod/at/xml/

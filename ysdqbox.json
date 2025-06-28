@@ -1,6 +1,15 @@
 [
     {
         "type": "",
+        "sourceName": "快播资源网采集接口",
+        "baseUrl": "",
+        "apiUrl": "https://gayapi.com/api.php/provide/vod/at/xml",
+        "searchUrl": "",
+        "detailUrl": "",
+        "parserUrl": ""
+    },
+    {
+        "type": "",
         "sourceName": "大奶子资源网采集接口",
         "baseUrl": "",
         "apiUrl": "https://apidanaizi.com/api.php/provide/vod/at/xml",
