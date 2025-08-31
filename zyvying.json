@@ -1,5 +1,11 @@
 [
     {
+        "key": "杏资源站影视采集站采集接口",
+        "name": "杏资源站影视采集站采集接口",
+        "api": "https://xzybb1.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "快播资源网采集接口",
         "name": "快播资源网采集接口",
         "api": "https://gayapi.com/api.php/provide/vod/at/xml",
