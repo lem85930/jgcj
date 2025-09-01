@@ -1,5 +1,13 @@
 [
     {
+        "key": "幸资源站采集接口",
+        "name": "幸资源站采集接口",
+        "type": 1,
+        "api": "https://xzybb1.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
         "key": "杏资源站影视采集站采集接口",
         "name": "杏资源站影视采集站采集接口",
         "type": 1,

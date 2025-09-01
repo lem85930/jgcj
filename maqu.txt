@@ -1,3 +1,4 @@
+幸资源站采集接口,https://xzybb1.com/api.php/provide/vod/at/xml/
 杏资源站影视采集站采集接口,https://xzybb1.com/api.php/provide/vod/at/xml/
 快播资源网采集接口,https://gayapi.com/api.php/provide/vod/at/xml/
 大奶子资源网采集接口,https://apidanaizi.com/api.php/provide/vod/at/xml/
