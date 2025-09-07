@@ -1,6 +1,15 @@
 [
     {
         "type": "",
+        "sourceName": "悟空资源网采集接口",
+        "baseUrl": "",
+        "apiUrl": "https://wukongzyz.com/api.php/provide/vod/at/xml",
+        "searchUrl": "",
+        "detailUrl": "",
+        "parserUrl": ""
+    },
+    {
+        "type": "",
         "sourceName": "幸资源站采集接口",
         "baseUrl": "",
         "apiUrl": "https://xzybb1.com/api.php/provide/vod/at/xml",

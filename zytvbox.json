@@ -1,5 +1,13 @@
 [
     {
+        "key": "悟空资源网采集接口",
+        "name": "悟空资源网采集接口",
+        "type": 1,
+        "api": "https://wukongzyz.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
         "key": "幸资源站采集接口",
         "name": "幸资源站采集接口",
         "type": 1,
