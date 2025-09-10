@@ -1,3 +1,4 @@
+91精品资源网采集接口,https://91jpzyw.com/api.php/provide/vod/at/xml/
 悟空资源网采集接口,https://wukongzyz.com/api.php/provide/vod/at/xml/
 幸资源站采集接口,https://xzybb1.com/api.php/provide/vod/at/xml/
 杏资源站影视采集站采集接口,https://xzybb1.com/api.php/provide/vod/at/xml/

@@ -1,6 +1,15 @@
 [
     {
         "type": "",
+        "sourceName": "91精品资源网采集接口",
+        "baseUrl": "",
+        "apiUrl": "https://91jpzyw.com/api.php/provide/vod/at/xml",
+        "searchUrl": "",
+        "detailUrl": "",
+        "parserUrl": ""
+    },
+    {
+        "type": "",
         "sourceName": "悟空资源网采集接口",
         "baseUrl": "",
         "apiUrl": "https://wukongzyz.com/api.php/provide/vod/at/xml",

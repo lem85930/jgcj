@@ -1,5 +1,11 @@
 [
     {
+        "key": "91精品资源网采集接口",
+        "name": "91精品资源网采集接口",
+        "api": "https://91jpzyw.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
         "key": "悟空资源网采集接口",
         "name": "悟空资源网采集接口",
         "api": "https://wukongzyz.com/api.php/provide/vod/at/xml",
