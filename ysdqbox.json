@@ -1,6 +1,15 @@
 [
     {
         "type": "",
+        "sourceName": "虎牙资源采集网采集接口",
+        "baseUrl": "",
+        "apiUrl": "https://www.huyaapi.com/api.php/provide/vod/at/xml",
+        "searchUrl": "",
+        "detailUrl": "",
+        "parserUrl": ""
+    },
+    {
+        "type": "",
         "sourceName": "91精品资源网采集接口",
         "baseUrl": "",
         "apiUrl": "https://91jpzyw.com/api.php/provide/vod/at/xml",

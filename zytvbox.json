@@ -1,5 +1,13 @@
 [
     {
+        "key": "虎牙资源采集网采集接口",
+        "name": "虎牙资源采集网采集接口",
+        "type": 1,
+        "api": "https://www.huyaapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "recordable": 0
+    },
+    {
         "key": "91精品资源网采集接口",
         "name": "91精品资源网采集接口",
         "type": 1,
