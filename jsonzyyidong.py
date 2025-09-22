@@ -1,99 +1,115 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+zh.py  二合一版本
+1. 按原逻辑生成 4 份 JSON（zyvying / zytvbox / ysdqbox / zypcbox）
+2. 再新增一份 yuan.json（格式同 yuan.txt，key 随机 4 位字母+数字）
+源文件统一使用 maqu.txt
+"""
 import json
 import os
 import itertools
+import random
+import string
 
-# 定义四个空列表，分别用于存储不同格式的数据
+# ---------- 通用 ----------
+SRC = 'maqu.txt'
+used_key = set()          # 用于生成不重复随机 key
+
+def uid() -> str:
+    """生成 4 位不重复的随机字母+数字"""
+    while True:
+        s = ''.join(random.choices(string.ascii_lowercase + string.digits, k=4))
+        if s not in used_key:
+            used_key.add(s)
+            return s
+
+# ---------- 原 zh.txt 逻辑 ----------
 data_list_for_converted = []
-data_list_for_zytvbox = []
-data_list_for_ysdqbox = []
-data_list_for_zypcbox = []
+data_list_for_zytvbox   = []
+data_list_for_ysdqbox   = []
+data_list_for_zypcbox   = []
 
-# 初始化数字递增生成器（从1开始）
 id_counter = itertools.count(1)
 
-# 读取maqu.txt文件
-with open('maqu.txt', 'r', encoding='utf-8') as file:
-    lines = file.readlines()
+with open(SRC, 'r', encoding='utf-8') as f:
+    lines = f.readlines()
 
-# 处理每一行数据
 for line in lines:
-    try:
-        parts = line.strip().split(',')
-        if len(parts) == 2:
-            name = parts[0].strip()
-            api_url = parts[1].strip().split('at/xml')[0]
+    line = line.strip()
+    if not line or ',' not in line:
+        continue
+    name, api_url = map(str.strip, line.split(',', 1))
+    api_url = api_url.rsplit('at/xml', 1)[0]          # 去掉尾部 at/xml
 
-            # 构建其他数据格式的字典（保持不变）
-            data_list_for_converted.append({
-                "key": name,
-                "name": name,
-                "api": api_url + 'at/xml',
-                "useInSearchAll": True
-            })
-            
-            data_list_for_zytvbox.append({
-                "key": name,
-                "name": name,
-                "type": 1,
-                "api": api_url,
-                "searchable": 1,
-                "recordable": 0
-            })
-            
-            data_list_for_ysdqbox.append({
-                "type": "",
-                "sourceName": name,
-                "baseUrl": "",
-                "apiUrl": api_url + 'at/xml',
-                "searchUrl": "",
-                "detailUrl": "",
-                "parserUrl": ""
-            })
-            
-            # 构建新的zypc_data格式（包含自增ID）
-            data_list_for_zypcbox.append({
-                "key": name,
-                "name": name,
-                "api": api_url + 'at/xml',
-                "playUrl": "",
-                "search": 1,
-                "group": "切片",
-                "status": True,
-                "type": 0,
-                "id": str(next(id_counter)),  # 自增ID
-                "isActive": True,
-                "resource": "",
-                "download": ""
-            })
-    except ValueError:
-        print(f"格式错误行：{line}")
+    # 1. zyvying
+    data_list_for_converted.append({
+        "key": name,
+        "name": name,
+        "api": api_url + 'at/xml',
+        "useInSearchAll": True
+    })
 
-# 生成最终的JSON结构（关键修改点）
-final_zypcbox_data = {
-    "tbl_site": data_list_for_zypcbox  # 将列表包装在tbl_site键下
+    # 2. zytvbox
+    data_list_for_zytvbox.append({
+        "key": name,
+        "name": name,
+        "type": 1,
+        "api": api_url,
+        "searchable": 1,
+        "recordable": 0
+    })
+
+    # 3. ysdqbox
+    data_list_for_ysdqbox.append({
+        "type": "",
+        "sourceName": name,
+        "baseUrl": "",
+        "apiUrl": api_url + 'at/xml',
+        "searchUrl": "",
+        "detailUrl": "",
+        "parserUrl": ""
+    })
+
+    # 4. zypcbox
+    data_list_for_zypcbox.append({
+        "key": name,
+        "name": name,
+        "api": api_url + 'at/xml',
+        "playUrl": "",
+        "search": 1,
+        "group": "切片",
+        "status": True,
+        "type": 0,
+        "id": str(next(id_counter)),
+        "isActive": True,
+        "resource": "",
+        "download": ""
+    })
+
+# ---------- 新增 yuan.json 逻辑 ----------
+yuan_api_site = {}
+for line in lines:
+    line = line.strip()
+    if not line or ',' not in line:
+        continue
+    name, api_url = map(str.strip, line.split(',', 1))
+    yuan_api_site[uid()] = {"name": name, "api": api_url}
+
+yuan_data = {
+    "cache_time": 7200,
+    "api_site": yuan_api_site
 }
 
-# 转换为JSON字符串
-json_data_converted = json.dumps(data_list_for_converted, ensure_ascii=False, indent=4)
-json_data_zytvbox = json.dumps(data_list_for_zytvbox, ensure_ascii=False, indent=4)
-json_data_ysdqbox = json.dumps(data_list_for_ysdqbox, ensure_ascii=False, indent=4)
-json_data_zypcbox = json.dumps(final_zypcbox_data, ensure_ascii=False, indent=4)  # 使用新结构
+# ---------- 写出全部 5 个文件 ----------
+def dump(obj, file):
+    pathlib.Path(file).write_text(
+        json.dumps(obj, ensure_ascii=False, indent=2), encoding='utf-8')
 
-# 写入文件
-with open('zyvying.json', 'w', encoding='utf-8') as f:
-    f.write(json_data_converted)
+dump(data_list_for_converted, 'zyvying.json')
+dump(data_list_for_zytvbox,   'zytvbox.json')
+dump(data_list_for_ysdqbox,   'ysdqbox.json')
+dump({"tbl_site": data_list_for_zypcbox}, 'zypcbox.json')
+dump(yuan_data, 'yuan.json')
 
-with open('zytvbox.json', 'w', encoding='utf-8') as f:
-    f.write(json_data_zytvbox)
-    
-with open('ysdqbox.json', 'w', encoding='utf-8') as f:
-    f.write(json_data_ysdqbox)
-    
-with open('zypcbox.json', 'w', encoding='utf-8') as f:  # 关键修改点
-    f.write(json_data_zypcbox)
-
-print("转换完成，数据已保存到指定文件中。")
-
-# 可选：删除临时文件
-# if os.path.exists('maqu.txt'):
-#     os.remove('maqu.txt')
+print("全部转换完成！共生成 5 个 json 文件。")
