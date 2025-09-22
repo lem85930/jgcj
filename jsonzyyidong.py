@@ -94,6 +94,7 @@ for line in lines:
     if not line or ',' not in line:
         continue
     name, api_url = map(str.strip, line.split(',', 1))
+    api_url = api_url.rsplit('at/xml', 1)[0]   
     yuan_api_site[uid()] = {"name": name, "api": api_url}
 
 yuan_data = {
@@ -113,3 +114,4 @@ dump({"tbl_site": data_list_for_zypcbox}, 'zypcbox.json')
 dump(yuan_data, 'libretv.json')
 
 print("全部转换完成！共生成 5 个 json 文件。")
+
