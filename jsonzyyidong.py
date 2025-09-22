@@ -7,7 +7,7 @@ zh.py  二合一版本
 源文件统一使用 maqu.txt
 """
 import json
-import os
+import pathlib      # ←←← 补上这一行
 import itertools
 import random
 import string
@@ -110,6 +110,6 @@ dump(data_list_for_converted, 'zyvying.json')
 dump(data_list_for_zytvbox,   'zytvbox.json')
 dump(data_list_for_ysdqbox,   'ysdqbox.json')
 dump({"tbl_site": data_list_for_zypcbox}, 'zypcbox.json')
-dump(yuan_data, 'yuan.json')
+dump(yuan_data, 'libretv.json')
 
 print("全部转换完成！共生成 5 个 json 文件。")
