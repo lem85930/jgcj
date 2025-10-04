@@ -50,7 +50,7 @@
   {
     "key": "爱奇艺资源站采集接口",
     "name": "爱奇艺资源站采集接口",
-    "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml",
+    "api": "https://www.iqiyizyapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -68,7 +68,7 @@
   {
     "key": "杏吧资源站采集接口",
     "name": "杏吧资源站采集接口",
-    "api": "https://xingba111.com/api.php/provide/vod/at/xml",
+    "api": "https://xingba222.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -78,15 +78,9 @@
     "useInSearchAll": true
   },
   {
-    "key": "无线资源网采集接口",
-    "name": "无线资源网采集接口",
-    "api": "https://api.wuxianzy.net/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
     "key": "黄色仓库资源采集网采集接口",
     "name": "黄色仓库资源采集网采集接口",
-    "api": "https://hsckzy.vip/api.php/provide/vod/at/xml",
+    "api": "https://hsckzy888.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -108,15 +102,27 @@
     "useInSearchAll": true
   },
   {
+    "key": "豆瓣资源采集站采集接口大全",
+    "name": "豆瓣资源采集站采集接口大全",
+    "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "如意资源网采集接口",
     "name": "如意资源网采集接口",
     "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
+    "key": "番茄资源采集接口",
+    "name": "番茄资源采集接口",
+    "api": "https://fqzy.me//api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "百万资源网采集接口",
     "name": "百万资源网采集接口",
-    "api": "https://api.baiwanapi.com/api.php/provide/vod/at/xml",
+    "api": "https://api.bwzyz.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -152,13 +158,19 @@
   {
     "key": "麒麟资源站全站采集接口",
     "name": "麒麟资源站全站采集接口",
-    "api": "https://www.qilinzyz.com/api.php/provide/vod/at/xml",
+    "api": "http://www.qilinzyz.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
     "key": "辣椒资源网采集接口",
     "name": "辣椒资源网采集接口",
     "api": "https://apilj.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
+    "key": "ikun资源网采集接口",
+    "name": "ikun资源网采集接口",
+    "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -176,7 +188,7 @@
   {
     "key": "奶香香资源站采集接口",
     "name": "奶香香资源站采集接口",
-    "api": "https://naixxzy.com/api.php/provide/vod/at/xml",
+    "api": "https://Naixxzy.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -194,7 +206,7 @@
   {
     "key": "jkun爱坤联盟资源网采集接口",
     "name": "jkun爱坤联盟资源网采集接口",
-    "api": "https://jkunzyapi.com/api.php/provide/vod/at/xml",
+    "api": "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -242,13 +254,13 @@
   {
     "key": "360资源站采集接口",
     "name": "360资源站采集接口",
-    "api": "https://360zy.com/api.php/provide/vod/at/xml",
+    "api": "https://360zyzz.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
     "key": "爱坤联盟资源网采集接口",
     "name": "爱坤联盟资源网采集接口",
-    "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
+    "api": "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -258,15 +270,21 @@
     "useInSearchAll": true
   },
   {
+    "key": "森林资源网采集接口",
+    "name": "森林资源网采集接口",
+    "api": "https://slapibf.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "CK资源采集接口",
     "name": "CK资源采集接口",
     "api": "https://ckzy.me/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
-    "key": "S猫资源网苹果cmsV8采集接口",
-    "name": "S猫资源网苹果cmsV8采集接口",
-    "api": "https://api.maozyapi.com/inc/api.php/provide/vod/at/xml",
+    "key": "S猫资源网采集接口",
+    "name": "S猫资源网采集接口",
+    "api": "https://caiji.semaozy.net/inc/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {

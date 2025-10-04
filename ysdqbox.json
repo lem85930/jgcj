@@ -75,7 +75,7 @@
     "type": "",
     "sourceName": "爱奇艺资源站采集接口",
     "baseUrl": "",
-    "apiUrl": "https://iqiyizyapi.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://www.iqiyizyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -102,7 +102,7 @@
     "type": "",
     "sourceName": "杏吧资源站采集接口",
     "baseUrl": "",
-    "apiUrl": "https://xingba111.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://xingba222.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -118,18 +118,9 @@
   },
   {
     "type": "",
-    "sourceName": "无线资源网采集接口",
-    "baseUrl": "",
-    "apiUrl": "https://api.wuxianzy.net/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
     "sourceName": "黄色仓库资源采集网采集接口",
     "baseUrl": "",
-    "apiUrl": "https://hsckzy.vip/api.php/provide/vod/at/xml",
+    "apiUrl": "https://hsckzy888.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -163,6 +154,15 @@
   },
   {
     "type": "",
+    "sourceName": "豆瓣资源采集站采集接口大全",
+    "baseUrl": "",
+    "apiUrl": "https://caiji.dbzy5.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "如意资源网采集接口",
     "baseUrl": "",
     "apiUrl": "https://cj.rycjapi.com/api.php/provide/vod/at/xml",
@@ -172,9 +172,18 @@
   },
   {
     "type": "",
+    "sourceName": "番茄资源采集接口",
+    "baseUrl": "",
+    "apiUrl": "https://fqzy.me//api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "百万资源网采集接口",
     "baseUrl": "",
-    "apiUrl": "https://api.baiwanapi.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://api.bwzyz.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -228,7 +237,7 @@
     "type": "",
     "sourceName": "麒麟资源站全站采集接口",
     "baseUrl": "",
-    "apiUrl": "https://www.qilinzyz.com/api.php/provide/vod/at/xml",
+    "apiUrl": "http://www.qilinzyz.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -238,6 +247,15 @@
     "sourceName": "辣椒资源网采集接口",
     "baseUrl": "",
     "apiUrl": "https://apilj.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "ikun资源网采集接口",
+    "baseUrl": "",
+    "apiUrl": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -264,7 +282,7 @@
     "type": "",
     "sourceName": "奶香香资源站采集接口",
     "baseUrl": "",
-    "apiUrl": "https://naixxzy.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://Naixxzy.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -291,7 +309,7 @@
     "type": "",
     "sourceName": "jkun爱坤联盟资源网采集接口",
     "baseUrl": "",
-    "apiUrl": "https://jkunzyapi.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -363,7 +381,7 @@
     "type": "",
     "sourceName": "360资源站采集接口",
     "baseUrl": "",
-    "apiUrl": "https://360zy.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://360zyzz.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -372,7 +390,7 @@
     "type": "",
     "sourceName": "爱坤联盟资源网采集接口",
     "baseUrl": "",
-    "apiUrl": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -388,6 +406,15 @@
   },
   {
     "type": "",
+    "sourceName": "森林资源网采集接口",
+    "baseUrl": "",
+    "apiUrl": "https://slapibf.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "CK资源采集接口",
     "baseUrl": "",
     "apiUrl": "https://ckzy.me/api.php/provide/vod/at/xml",
@@ -397,9 +424,9 @@
   },
   {
     "type": "",
-    "sourceName": "S猫资源网苹果cmsV8采集接口",
+    "sourceName": "S猫资源网采集接口",
     "baseUrl": "",
-    "apiUrl": "https://api.maozyapi.com/inc/api.php/provide/vod/at/xml",
+    "apiUrl": "https://caiji.semaozy.net/inc/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
