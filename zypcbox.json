@@ -29,20 +29,6 @@
       "download": ""
     },
     {
-      "key": "悟空资源网采集接口",
-      "name": "悟空资源网采集接口",
-      "api": "https://wukongzyz.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "search": 1,
-      "group": "切片",
-      "status": true,
-      "type": 0,
-      "id": "3",
-      "isActive": true,
-      "resource": "",
-      "download": ""
-    },
-    {
       "key": "幸资源站采集接口",
       "name": "幸资源站采集接口",
       "api": "https://xzybb1.com/api.php/provide/vod/at/xml",
@@ -51,7 +37,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "4",
+      "id": "3",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -65,21 +51,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "5",
-      "isActive": true,
-      "resource": "",
-      "download": ""
-    },
-    {
-      "key": "快播资源网采集接口",
-      "name": "快播资源网采集接口",
-      "api": "https://gayapi.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "search": 1,
-      "group": "切片",
-      "status": true,
-      "type": 0,
-      "id": "6",
+      "id": "4",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -93,7 +65,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "7",
+      "id": "5",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -107,7 +79,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "8",
+      "id": "6",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -121,7 +93,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "9",
+      "id": "7",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -135,7 +107,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "10",
+      "id": "8",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -149,7 +121,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "11",
+      "id": "9",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -163,7 +135,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "12",
+      "id": "10",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -177,7 +149,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "13",
+      "id": "11",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -191,7 +163,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "14",
+      "id": "12",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -205,7 +177,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "15",
+      "id": "13",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -219,7 +191,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "16",
+      "id": "14",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -233,7 +205,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "17",
+      "id": "15",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -247,7 +219,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "18",
+      "id": "16",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -261,7 +233,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "19",
+      "id": "17",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -275,7 +247,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "20",
+      "id": "18",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -289,7 +261,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "21",
+      "id": "19",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -303,7 +275,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "22",
+      "id": "20",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -317,7 +289,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "23",
+      "id": "21",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -331,7 +303,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "24",
+      "id": "22",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -345,7 +317,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "25",
+      "id": "23",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -359,7 +331,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "26",
+      "id": "24",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -373,7 +345,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "27",
+      "id": "25",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -387,7 +359,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "28",
+      "id": "26",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -401,7 +373,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "29",
+      "id": "27",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -415,7 +387,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "30",
+      "id": "28",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -429,7 +401,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "31",
+      "id": "29",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -443,7 +415,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "32",
+      "id": "30",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -457,7 +429,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "33",
+      "id": "31",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -471,7 +443,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "34",
+      "id": "32",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -485,7 +457,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "35",
+      "id": "33",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -499,7 +471,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "36",
+      "id": "34",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -513,7 +485,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "37",
+      "id": "35",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -527,7 +499,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "38",
+      "id": "36",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -541,21 +513,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "39",
-      "isActive": true,
-      "resource": "",
-      "download": ""
-    },
-    {
-      "key": "黑木耳资源站采集接口",
-      "name": "黑木耳资源站采集接口",
-      "api": "https://json.heimuer.xyz/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "search": 1,
-      "group": "切片",
-      "status": true,
-      "type": 0,
-      "id": "40",
+      "id": "37",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -569,7 +527,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "41",
+      "id": "38",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -583,7 +541,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "42",
+      "id": "39",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -597,7 +555,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "43",
+      "id": "40",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -611,7 +569,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "44",
+      "id": "41",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -625,7 +583,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "45",
+      "id": "42",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -639,7 +597,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "46",
+      "id": "43",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -653,7 +611,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "47",
+      "id": "44",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -667,7 +625,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "48",
+      "id": "45",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -681,7 +639,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "49",
+      "id": "46",
       "isActive": true,
       "resource": "",
       "download": ""

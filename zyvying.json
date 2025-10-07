@@ -12,12 +12,6 @@
     "useInSearchAll": true
   },
   {
-    "key": "悟空资源网采集接口",
-    "name": "悟空资源网采集接口",
-    "api": "https://wukongzyz.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
     "key": "幸资源站采集接口",
     "name": "幸资源站采集接口",
     "api": "https://xzybb1.com/api.php/provide/vod/at/xml",
@@ -27,12 +21,6 @@
     "key": "杏资源站影视采集站采集接口",
     "name": "杏资源站影视采集站采集接口",
     "api": "https://xzybb1.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "快播资源网采集接口",
-    "name": "快播资源网采集接口",
-    "api": "https://gayapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -231,12 +219,6 @@
     "key": "老色逼资源站采集接口",
     "name": "老色逼资源站采集接口",
     "api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "黑木耳资源站采集接口",
-    "name": "黑木耳资源站采集接口",
-    "api": "https://json.heimuer.xyz/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
