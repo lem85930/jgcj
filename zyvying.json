@@ -192,12 +192,6 @@
     "useInSearchAll": true
   },
   {
-    "key": "jkun爱坤联盟资源网采集接口",
-    "name": "jkun爱坤联盟资源网采集接口",
-    "api": "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
     "key": "魔都动漫资源采集网采集接口",
     "name": "魔都动漫资源采集网采集接口",
     "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml",

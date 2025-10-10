@@ -30,7 +30,6 @@ ikun资源网采集接口,https://ikunzyapi.com/api.php/provide/vod/at/xml/
 奶香香资源站采集接口,https://Naixxzy.com/api.php/provide/vod/at/xml/
 暴风资源网采集接口,https://bfzyapi.com/api.php/provide/vod/at/xml/
 极速资源网采集接口,https://jszyapi.com/api.php/provide/vod/at/xml/
-jkun爱坤联盟资源网采集接口,https://www.jkunzyapi.com/api.php/provide/vod/at/xml/
 魔都动漫资源采集网采集接口,https://www.mdzyapi.com/api.php/provide/vod/at/xml/
 豪华资源网采集接口地址,https://hhzyapi.com/api.php/provide/vod/at/xml/
 丫丫资源网采集接口,https://cj.yayazy.net/api.php/provide/vod/at/xml/

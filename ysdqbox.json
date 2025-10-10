@@ -289,15 +289,6 @@
   },
   {
     "type": "",
-    "sourceName": "jkun爱坤联盟资源网采集接口",
-    "baseUrl": "",
-    "apiUrl": "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
     "sourceName": "魔都动漫资源采集网采集接口",
     "baseUrl": "",
     "apiUrl": "https://www.mdzyapi.com/api.php/provide/vod/at/xml",
