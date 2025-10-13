@@ -56,14 +56,6 @@
     "recordable": 0
   },
   {
-    "key": "金马资源网采集接口",
-    "name": "金马资源网采集接口",
-    "type": 1,
-    "api": "https://api.jmzy.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "电影天堂采集综合资源接口",
     "name": "电影天堂采集综合资源接口",
     "type": 1,
@@ -180,14 +172,6 @@
     "name": "樱花资源网采集接口",
     "type": 1,
     "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
-    "key": "色猫资源网采集接口",
-    "name": "色猫资源网采集接口",
-    "type": 1,
-    "api": "https://caiji.semaozy.net/inc/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },

@@ -29,7 +29,6 @@ X细胞资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.ysz
 丝袜资源采集网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/196.html
 无尽资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/195.html
 樱花资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/194.html
-色猫资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/193.html
 麒麟资源站全站采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/192.html
 快车资源采集站采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/191.html
 易看资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/190.html

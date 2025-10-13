@@ -64,15 +64,6 @@
   },
   {
     "type": "",
-    "sourceName": "金马资源网采集接口",
-    "baseUrl": "",
-    "apiUrl": "https://api.jmzy.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
     "sourceName": "电影天堂采集综合资源接口",
     "baseUrl": "",
     "apiUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml",
@@ -202,15 +193,6 @@
     "sourceName": "樱花资源网采集接口",
     "baseUrl": "",
     "apiUrl": "https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "色猫资源网采集接口",
-    "baseUrl": "",
-    "apiUrl": "https://caiji.semaozy.net/inc/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
