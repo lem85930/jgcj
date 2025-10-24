@@ -1,1 +1,1 @@
-360资源站采集接口,https://360zy.com/ct.zip|https://360zyzz.com/api.php/provide/vod/at/xml/
+360资源站采集接口,https://360zyzz.com/api.php/provide/vod/at/xml/

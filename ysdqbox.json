@@ -3,7 +3,7 @@
     "type": "",
     "sourceName": "360资源站采集接口",
     "baseUrl": "",
-    "apiUrl": "https://360zy.com/ct.zip|https://360zyzz.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://360zyzz.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
