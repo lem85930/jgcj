@@ -1,7 +1,7 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "axf9": {
+    "81v7": {
       "name": "360资源站采集接口",
       "api": "https://360zy.com/ct.zip|https://360zyzz.com/api.php/provide/vod"
     }
