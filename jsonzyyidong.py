@@ -46,7 +46,7 @@ for line in lines:
     data_list_for_converted.append({
         "key": name,
         "name": name,
-        "api": api_url + 'at/xml',
+        "api": 'https://lunazz.tianshideyou.eu.org/?url='+ api_url + 'at/xml',
         "useInSearchAll": True
     })
 
@@ -114,6 +114,7 @@ dump({"tbl_site": data_list_for_zypcbox}, 'zypcbox.json')
 dump(yuan_data, 'libretv.json')
 
 print("全部转换完成！共生成 5 个 json 文件。")
+
 
 
 
