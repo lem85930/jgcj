@@ -82,3 +82,4 @@ se窝资源网影视采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www
 S猫资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/136.html
 光速资源站采集接口地址,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/135.html
 天空资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/132.html
+芒果资源网视频资源库接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/116.html
