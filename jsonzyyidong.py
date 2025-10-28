@@ -46,7 +46,7 @@ for line in lines:
     data_list_for_converted.append({
         "key": name,
         "name": name,
-        "api": 'https://lunazz.tianshideyou.eu.org/?url='+ api_url + 'at/xml',
+        "api": api_url + 'at/xml',
         "useInSearchAll": True
     })
 
@@ -55,7 +55,7 @@ for line in lines:
         "key": name,
         "name": name,
         "type": 1,
-        "api": 'https://lunazz.tianshideyou.eu.org/?url='+ api_url,
+        "api": api_url,
         "searchable": 1,
         "recordable": 0
     })
@@ -65,7 +65,7 @@ for line in lines:
         "type": "",
         "sourceName": name,
         "baseUrl": "",
-        "apiUrl": 'https://lunazz.tianshideyou.eu.org/?url='+ api_url + 'at/xml',
+        "apiUrl": api_url + 'at/xml',
         "searchUrl": "",
         "detailUrl": "",
         "parserUrl": ""
@@ -75,7 +75,7 @@ for line in lines:
     data_list_for_zypcbox.append({
         "key": name,
         "name": name,
-        "api": 'https://lunazz.tianshideyou.eu.org/?url='+ api_url + 'at/xml',
+        "api": api_url + 'at/xml',
         "playUrl": "",
         "search": 1,
         "group": "切片",
@@ -114,6 +114,7 @@ dump({"tbl_site": data_list_for_zypcbox}, 'zypcbox.json')
 dump(yuan_data, 'libretv.json')
 
 print("全部转换完成！共生成 5 个 json 文件。")
+
 
 
 
