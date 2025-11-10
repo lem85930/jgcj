@@ -40,14 +40,6 @@
     "recordable": 0
   },
   {
-    "key": "杏资源站影视采集站采集接口",
-    "name": "杏资源站影视采集站采集接口",
-    "type": 1,
-    "api": "https://xzybb1.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "大奶子资源网采集接口",
     "name": "大奶子资源网采集接口",
     "type": 1,

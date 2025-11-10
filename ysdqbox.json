@@ -46,15 +46,6 @@
   },
   {
     "type": "",
-    "sourceName": "杏资源站影视采集站采集接口",
-    "baseUrl": "",
-    "apiUrl": "https://xzybb1.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
     "sourceName": "大奶子资源网采集接口",
     "baseUrl": "",
     "apiUrl": "https://apidanaizi.com/api.php/provide/vod/at/xml",

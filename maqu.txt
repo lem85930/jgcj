@@ -3,7 +3,6 @@
 虎牙资源采集网采集接口,https://www.huyaapi.com/api.php/provide/vod/at/xml/
 91精品资源网采集接口,https://91jpzyw.com/api.php/provide/vod/at/xml/
 幸资源站采集接口,https://xzybb1.com/api.php/provide/vod/at/xml/
-杏资源站影视采集站采集接口,https://xzybb1.com/api.php/provide/vod/at/xml/
 大奶子资源网采集接口,https://apidanaizi.com/api.php/provide/vod/at/xml/
 天涯影视资源网采集接口,https://tyyszyapi.com/api.php/provide/vod/at/xml/
 爱奇艺资源站采集接口,https://www.iqiyizyapi.com/api.php/provide/vod/at/xml/
