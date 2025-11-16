@@ -1,3 +1,4 @@
+豆豆资源网采集接口,https://api.douapi.cc/api.php/provide/vod/at/xml/
 香蕉资源网采集接口,https://www.xiangjiaozyw.com/api.php/provide/vod/at/xml/
 山海官方资源站采集接口,https://zy.sh0o.cn/api.php/provide/vod/at/xml/
 虎牙资源采集网采集接口,https://www.huyaapi.com/api.php/provide/vod/at/xml/
@@ -7,7 +8,6 @@
 天涯影视资源网采集接口,https://tyyszyapi.com/api.php/provide/vod/at/xml/
 爱奇艺资源站采集接口,https://www.iqiyizyapi.com/api.php/provide/vod/at/xml/
 电影天堂采集综合资源接口,http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/
-杏吧资源站采集接口,https://xingba222.com/api.php/provide/vod/at/xml/
 茅台资源站采集接口,https://caiji.maotaizy.cc/api.php/provide/vod/at/xml/
 X细胞资源网采集接口,https://www.xxibaozyw.com/api.php/provide/vod/at/xml/
 搜av资源站采集接口,https://api.souavzy.vip/api.php/provide/vod/at/xml/
@@ -40,3 +40,4 @@ ikun资源网采集接口,https://ikunzyapi.com/api.php/provide/vod/at/xml/
 CK资源采集接口,https://ckzy.me/api.php/provide/vod/at/xml/
 量子资源网资源采集接口,https://cj.lziapi.com/api.php/provide/vod/at/xml/
 光速资源站采集接口地址,https://api.guangsuapi.com/api.php/provide/vod/at/xml/
+百度资源采集接口,https://api.apibdzy.com/api.php/provide/vod/at/xml/

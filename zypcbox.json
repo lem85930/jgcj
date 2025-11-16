@@ -1,6 +1,20 @@
 {
   "tbl_site": [
     {
+      "key": "豆豆资源网采集接口",
+      "name": "豆豆资源网采集接口",
+      "api": "https://cfkua.wokaotianshi.eu.org/https://api.douapi.cc/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "search": 1,
+      "group": "切片",
+      "status": true,
+      "type": 0,
+      "id": "1",
+      "isActive": true,
+      "resource": "",
+      "download": ""
+    },
+    {
       "key": "香蕉资源网采集接口",
       "name": "香蕉资源网采集接口",
       "api": "https://cfkua.wokaotianshi.eu.org/https://www.xiangjiaozyw.com/api.php/provide/vod/at/xml",
@@ -9,7 +23,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "1",
+      "id": "2",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -23,7 +37,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "2",
+      "id": "3",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -37,7 +51,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "3",
+      "id": "4",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -51,7 +65,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "4",
+      "id": "5",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -65,7 +79,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "5",
+      "id": "6",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -79,7 +93,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "6",
+      "id": "7",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -93,7 +107,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "7",
+      "id": "8",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -107,7 +121,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "8",
+      "id": "9",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -116,20 +130,6 @@
       "key": "电影天堂采集综合资源接口",
       "name": "电影天堂采集综合资源接口",
       "api": "https://cfkua.wokaotianshi.eu.org/http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "search": 1,
-      "group": "切片",
-      "status": true,
-      "type": 0,
-      "id": "9",
-      "isActive": true,
-      "resource": "",
-      "download": ""
-    },
-    {
-      "key": "杏吧资源站采集接口",
-      "name": "杏吧资源站采集接口",
-      "api": "https://cfkua.wokaotianshi.eu.org/https://xingba222.com/api.php/provide/vod/at/xml",
       "playUrl": "",
       "search": 1,
       "group": "切片",
@@ -584,6 +584,20 @@
       "status": true,
       "type": 0,
       "id": "42",
+      "isActive": true,
+      "resource": "",
+      "download": ""
+    },
+    {
+      "key": "百度资源采集接口",
+      "name": "百度资源采集接口",
+      "api": "https://cfkua.wokaotianshi.eu.org/https://api.apibdzy.com/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "search": 1,
+      "group": "切片",
+      "status": true,
+      "type": 0,
+      "id": "43",
       "isActive": true,
       "resource": "",
       "download": ""

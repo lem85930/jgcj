@@ -1,3 +1,4 @@
+豆豆资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/234.html
 香蕉资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/232.html
 山海官方资源站采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/231.html
 虎牙资源采集网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/230.html
@@ -82,4 +83,5 @@ se窝资源网影视采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www
 S猫资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/136.html
 光速资源站采集接口地址,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/135.html
 天空资源网采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/132.html
+百度资源采集接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/123.html
 芒果资源网视频资源库接口,https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/ziyuan/api/116.html

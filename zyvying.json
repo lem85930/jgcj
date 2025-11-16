@@ -1,5 +1,11 @@
 [
   {
+    "key": "豆豆资源网采集接口",
+    "name": "豆豆资源网采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://api.douapi.cc/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "香蕉资源网采集接口",
     "name": "香蕉资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.xiangjiaozyw.com/api.php/provide/vod/at/xml",
@@ -51,12 +57,6 @@
     "key": "电影天堂采集综合资源接口",
     "name": "电影天堂采集综合资源接口",
     "api": "https://cfkua.wokaotianshi.eu.org/http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "杏吧资源站采集接口",
-    "name": "杏吧资源站采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://xingba222.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -249,6 +249,12 @@
     "key": "光速资源站采集接口地址",
     "name": "光速资源站采集接口地址",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
+    "key": "百度资源采集接口",
+    "name": "百度资源采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://api.apibdzy.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   }
 ]
