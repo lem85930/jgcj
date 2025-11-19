@@ -1,5 +1,17 @@
 [
   {
+    "key": "OK资源采集网采集接口",
+    "name": "OK资源采集网采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/http://api.okzyw.net/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
+    "key": "闪电资源网采集接口",
+    "name": "闪电资源网采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://xsd.sdzyapi.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "豆豆资源网采集接口",
     "name": "豆豆资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.douapi.cc/api.php/provide/vod/at/xml",

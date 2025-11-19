@@ -1,3 +1,5 @@
+OK资源采集网采集接口,http://api.okzyw.net/api.php/provide/vod/at/xml/
+闪电资源网采集接口,https://xsd.sdzyapi.com/api.php/provide/vod/at/xml/
 豆豆资源网采集接口,https://api.douapi.cc/api.php/provide/vod/at/xml/
 香蕉资源网采集接口,https://www.xiangjiaozyw.com/api.php/provide/vod/at/xml/
 山海官方资源站采集接口,https://zy.sh0o.cn/api.php/provide/vod/at/xml/

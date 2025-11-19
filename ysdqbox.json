@@ -1,6 +1,24 @@
 [
   {
     "type": "",
+    "sourceName": "OK资源采集网采集接口",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/http://api.okzyw.net/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "闪电资源网采集接口",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://xsd.sdzyapi.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "豆豆资源网采集接口",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.douapi.cc/api.php/provide/vod/at/xml",
