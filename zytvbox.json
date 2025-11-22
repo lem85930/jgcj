@@ -1,17 +1,25 @@
 [
   {
-    "key": "OK资源采集网采集接口",
-    "name": "OK资源采集网采集接口",
+    "key": "牛牛资源网采集接口",
+    "name": "牛牛资源网采集接口",
     "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/http://api.okzyw.net/api.php/provide/vod/",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://api.niuniuzy.me/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "闪电资源网采集接口",
-    "name": "闪电资源网采集接口",
+    "key": "最大资源网采集接口",
+    "name": "最大资源网采集接口",
     "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://xsd.sdzyapi.com/api.php/provide/vod/",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://api.zuidapi.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "OK资源采集网采集接口",
+    "name": "OK资源采集网采集接口",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/http://api.okzyw.net/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
@@ -60,6 +68,14 @@
     "name": "幸资源站采集接口",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://xzybb1.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "猫眼资源站采集接口",
+    "name": "猫眼资源站采集接口",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
@@ -120,14 +136,6 @@
     "recordable": 0
   },
   {
-    "key": "魔爪资源采集网采集接口",
-    "name": "魔爪资源采集网采集接口",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://mozhuazy.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "豆瓣资源采集站采集接口大全",
     "name": "豆瓣资源采集站采集接口大全",
     "type": 1,
@@ -156,14 +164,6 @@
     "name": "卧龙影视资源采集站采集接口",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://collect.wolongzy.cc/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
-    "key": "丝袜资源采集网采集接口",
-    "name": "丝袜资源采集网采集接口",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://siwazyw.tv/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
@@ -272,8 +272,8 @@
     "recordable": 0
   },
   {
-    "key": "丫丫资源网采集接口",
-    "name": "丫丫资源网采集接口",
+    "key": "鸭鸭（丫丫）资源网采集接口",
+    "name": "鸭鸭（丫丫）资源网采集接口",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://cj.yayazy.net/api.php/provide/vod/",
     "searchable": 1,
@@ -324,6 +324,14 @@
     "name": "森林资源网采集接口",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://slapibf.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "大地资源采集接口",
+    "name": "大地资源采集接口",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://dadiapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },

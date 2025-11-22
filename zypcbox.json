@@ -1,9 +1,9 @@
 {
   "tbl_site": [
     {
-      "key": "OK资源采集网采集接口",
-      "name": "OK资源采集网采集接口",
-      "api": "https://cfkua.wokaotianshi.eu.org/http://api.okzyw.net/api.php/provide/vod/at/xml",
+      "key": "牛牛资源网采集接口",
+      "name": "牛牛资源网采集接口",
+      "api": "https://cfkua.wokaotianshi.eu.org/https://api.niuniuzy.me/api.php/provide/vod/at/xml",
       "playUrl": "",
       "search": 1,
       "group": "切片",
@@ -15,15 +15,29 @@
       "download": ""
     },
     {
-      "key": "闪电资源网采集接口",
-      "name": "闪电资源网采集接口",
-      "api": "https://cfkua.wokaotianshi.eu.org/https://xsd.sdzyapi.com/api.php/provide/vod/at/xml",
+      "key": "最大资源网采集接口",
+      "name": "最大资源网采集接口",
+      "api": "https://cfkua.wokaotianshi.eu.org/https://api.zuidapi.com/api.php/provide/vod/at/xml",
       "playUrl": "",
       "search": 1,
       "group": "切片",
       "status": true,
       "type": 0,
       "id": "2",
+      "isActive": true,
+      "resource": "",
+      "download": ""
+    },
+    {
+      "key": "OK资源采集网采集接口",
+      "name": "OK资源采集网采集接口",
+      "api": "https://cfkua.wokaotianshi.eu.org/http://api.okzyw.net/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "search": 1,
+      "group": "切片",
+      "status": true,
+      "type": 0,
+      "id": "3",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -37,7 +51,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "3",
+      "id": "4",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -51,7 +65,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "4",
+      "id": "5",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -65,7 +79,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "5",
+      "id": "6",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -79,7 +93,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "6",
+      "id": "7",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -93,7 +107,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "7",
+      "id": "8",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -107,7 +121,21 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "8",
+      "id": "9",
+      "isActive": true,
+      "resource": "",
+      "download": ""
+    },
+    {
+      "key": "猫眼资源站采集接口",
+      "name": "猫眼资源站采集接口",
+      "api": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "search": 1,
+      "group": "切片",
+      "status": true,
+      "type": 0,
+      "id": "10",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -121,7 +149,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "9",
+      "id": "11",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -135,7 +163,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "10",
+      "id": "12",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -149,7 +177,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "11",
+      "id": "13",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -163,7 +191,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "12",
+      "id": "14",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -177,7 +205,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "13",
+      "id": "15",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -191,7 +219,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "14",
+      "id": "16",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -205,21 +233,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "15",
-      "isActive": true,
-      "resource": "",
-      "download": ""
-    },
-    {
-      "key": "魔爪资源采集网采集接口",
-      "name": "魔爪资源采集网采集接口",
-      "api": "https://cfkua.wokaotianshi.eu.org/https://mozhuazy.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "search": 1,
-      "group": "切片",
-      "status": true,
-      "type": 0,
-      "id": "16",
+      "id": "17",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -233,7 +247,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "17",
+      "id": "18",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -247,7 +261,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "18",
+      "id": "19",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -261,7 +275,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "19",
+      "id": "20",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -270,20 +284,6 @@
       "key": "卧龙影视资源采集站采集接口",
       "name": "卧龙影视资源采集站采集接口",
       "api": "https://cfkua.wokaotianshi.eu.org/https://collect.wolongzy.cc/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "search": 1,
-      "group": "切片",
-      "status": true,
-      "type": 0,
-      "id": "20",
-      "isActive": true,
-      "resource": "",
-      "download": ""
-    },
-    {
-      "key": "丝袜资源采集网采集接口",
-      "name": "丝袜资源采集网采集接口",
-      "api": "https://cfkua.wokaotianshi.eu.org/https://siwazyw.tv/api.php/provide/vod/at/xml",
       "playUrl": "",
       "search": 1,
       "group": "切片",
@@ -477,8 +477,8 @@
       "download": ""
     },
     {
-      "key": "丫丫资源网采集接口",
-      "name": "丫丫资源网采集接口",
+      "key": "鸭鸭（丫丫）资源网采集接口",
+      "name": "鸭鸭（丫丫）资源网采集接口",
       "api": "https://cfkua.wokaotianshi.eu.org/https://cj.yayazy.net/api.php/provide/vod/at/xml",
       "playUrl": "",
       "search": 1,
@@ -575,6 +575,20 @@
       "download": ""
     },
     {
+      "key": "大地资源采集接口",
+      "name": "大地资源采集接口",
+      "api": "https://cfkua.wokaotianshi.eu.org/https://dadiapi.com/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "search": 1,
+      "group": "切片",
+      "status": true,
+      "type": 0,
+      "id": "42",
+      "isActive": true,
+      "resource": "",
+      "download": ""
+    },
+    {
       "key": "CK资源采集接口",
       "name": "CK资源采集接口",
       "api": "https://cfkua.wokaotianshi.eu.org/https://ckzy.me/api.php/provide/vod/at/xml",
@@ -583,7 +597,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "42",
+      "id": "43",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -597,7 +611,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "43",
+      "id": "44",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -611,7 +625,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "44",
+      "id": "45",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -625,7 +639,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "45",
+      "id": "46",
       "isActive": true,
       "resource": "",
       "download": ""
