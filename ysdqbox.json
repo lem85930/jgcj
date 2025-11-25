@@ -1,6 +1,15 @@
 [
   {
     "type": "",
+    "sourceName": "火花官采收费影视资源站采集接口",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://cj.huohua.live/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "牛牛资源网采集接口",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.niuniuzy.me/api.php/provide/vod/at/xml",
@@ -175,6 +184,15 @@
     "sourceName": "百万资源网采集接口",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.bwzyz.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "旺旺资源网采集接口",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.wwzy.tv/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""

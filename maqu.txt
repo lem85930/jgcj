@@ -1,3 +1,4 @@
+火花官采收费影视资源站采集接口,https://cj.huohua.live/api.php/provide/vod/at/xml/
 牛牛资源网采集接口,https://api.niuniuzy.me/api.php/provide/vod/at/xml/
 最大资源网采集接口,https://api.zuidapi.com/api.php/provide/vod/at/xml/
 OK资源采集网采集接口,http://api.okzyw.net/api.php/provide/vod/at/xml/
@@ -18,6 +19,7 @@ X细胞资源网采集接口,https://www.xxibaozyw.com/api.php/provide/vod/at/xm
 豆瓣资源采集站采集接口大全,https://caiji.dbzy5.com/api.php/provide/vod/at/xml/
 如意资源网采集接口,https://cj.rycjapi.com/api.php/provide/vod/at/xml/
 百万资源网采集接口,https://api.bwzyz.com/api.php/provide/vod/at/xml/
+旺旺资源网采集接口,https://api.wwzy.tv/api.php/provide/vod/at/xml/
 卧龙影视资源采集站采集接口,https://collect.wolongzy.cc/api.php/provide/vod/at/xml/
 无尽资源网采集接口,https://api.wujinapi.me/api.php/provide/vod/at/xml/
 樱花资源网采集接口,https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml/

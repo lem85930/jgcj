@@ -1,5 +1,11 @@
 [
   {
+    "key": "火花官采收费影视资源站采集接口",
+    "name": "火花官采收费影视资源站采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://cj.huohua.live/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "牛牛资源网采集接口",
     "name": "牛牛资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.niuniuzy.me/api.php/provide/vod/at/xml",
@@ -117,6 +123,12 @@
     "key": "百万资源网采集接口",
     "name": "百万资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.bwzyz.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
+    "key": "旺旺资源网采集接口",
+    "name": "旺旺资源网采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://api.wwzy.tv/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
