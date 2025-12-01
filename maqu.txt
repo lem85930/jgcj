@@ -1,4 +1,4 @@
-火花官采收费影视资源站采集接口,https://cj.huohua.live/api.php/provide/vod/at/xml/
+火花官采收费影视资源站采集接口,http://cj.huohua.vip/api.php/provide/vod/at/xml/
 牛牛资源网采集接口,https://api.niuniuzy.me/api.php/provide/vod/at/xml/
 最大资源网采集接口,https://api.zuidapi.com/api.php/provide/vod/at/xml/
 OK资源采集网采集接口,http://api.okzyw.net/api.php/provide/vod/at/xml/

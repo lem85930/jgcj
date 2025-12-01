@@ -3,7 +3,7 @@
     "type": "",
     "sourceName": "火花官采收费影视资源站采集接口",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://cj.huohua.live/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/http://cj.huohua.vip/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
