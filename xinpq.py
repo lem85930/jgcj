@@ -4,11 +4,11 @@ from urllib.parse import urlparse, urlunparse
 import re
 import time
 
-# 代理网关路径常量
+# 代理网关路径常量（保留，用于后续拼接子链接）
 PROXY_PATH = "/wztz/https/www.yszzq.com"
 
 def build_proxy_url(original_url):
-    """重构URL构建逻辑"""
+    """重构URL构建逻辑（保留，用于处理页面内的子链接）"""
     parsed = urlparse(original_url)
     if parsed.netloc == "www.yszzq.com":
         new_path = f"{PROXY_PATH}{parsed.path}"
@@ -22,18 +22,17 @@ def build_proxy_url(original_url):
         ))
     return original_url
 
-def get_max_page_number(base_url):
-    """获取最大页码"""
+def get_max_page_number(proxy_base_url):
+    """获取最大页码（适配直接传入代理URL的场景）"""
     try:
-        # 请求代理后的基础URL以获取尾页链接
-        proxy_url = build_proxy_url(base_url)
-        response = requests.get(proxy_url, headers=headers, timeout=15)
+        # 直接请求代理后的URL，无需再转换
+        response = requests.get(proxy_base_url, headers=headers, timeout=15)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'lxml')
         last_page_link = soup.find('a', string='尾页')
         if last_page_link and 'href' in last_page_link.attrs:
             href = last_page_link['href']
-            # 匹配新的分页格式：index_数字.html
+            # 匹配分页格式：index_数字.html
             match = re.search(r'index_(\d+)\.html', href)
             if match:
                 return int(match.group(1))
@@ -46,15 +45,15 @@ headers = {
     'X-Forwarded-Proto': 'https'
 }
 
-# 更新基础URL为第一页原始地址
-base_url = "https://www.yszzq.com/tags/xmlcjjk/index.html"
+# 直接使用代理后的完整基础URL
+base_url = "https://wztz.wokaotianshi.eu.org/wztz/https/www.yszzq.com/tags/xmlcjjk/index.html"
 
 # 获取最大页码
 max_page = get_max_page_number(base_url)
 
-# 生成URL列表：第一页为index.html，第二页开始为index_2.html、index_3.html...
+# 生成URL列表：第一页为原base_url，第二页开始为index_2.html、index_3.html...
 urls = [base_url]  # 第一页
-# 从2开始生成后续页码（因为第二页是index_2.html）
+# 从2开始生成后续页码（第二页是index_2.html）
 if max_page >= 2:
     urls += [
         base_url.replace('index.html', f'index_{i}.html') 
@@ -69,9 +68,8 @@ for index, url in enumerate(urls):
     try:
         if index > 0:
             time.sleep(1.5)
-        # 转换为代理URL后请求
-        proxy_url = build_proxy_url(url)
-        response = requests.get(proxy_url, headers=headers, timeout=15)
+        # 直接请求代理URL（无需再转换）
+        response = requests.get(url, headers=headers, timeout=15)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'lxml')
         pattern = re.compile(r' 接口|地址|API|资源|资源库|资源接口|资源网|json[\u4e00-\u9fa5]*', re.UNICODE)
@@ -82,6 +80,7 @@ for index, url in enumerate(urls):
             raw_href = parent['href']
             title = element.strip()
             if raw_href.startswith(('http://', 'https://')):
+                # 页面内的子链接仍需转换为代理URL
                 final_url = build_proxy_url(raw_href)
             else:
                 if not raw_href.startswith('/'):
