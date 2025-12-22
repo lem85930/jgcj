@@ -23,19 +23,49 @@ def build_proxy_url(original_url):
     return original_url
 
 def get_max_page_number(proxy_base_url):
-    """获取最大页码（适配直接传入代理URL的场景）"""
+    """获取最大页码（根据实际网页源码重构逻辑）"""
     try:
-        # 直接请求代理后的URL，无需再转换
+        # 直接请求代理后的URL
         response = requests.get(proxy_base_url, headers=headers, timeout=15)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'lxml')
-        last_page_link = soup.find('a', string='尾页')
+        
+        # 1. 定位分页容器（class="pager"的div）
+        pager_div = soup.find('div', class_='pager')
+        if not pager_div:
+            print("⚠️ 未找到分页容器")
+            return 0
+        
+        # 2. 找到尾页链接
+        last_page_link = pager_div.find('a', string='尾页')
         if last_page_link and 'href' in last_page_link.attrs:
             href = last_page_link['href']
-            # 匹配分页格式：index_数字.html
+            # 匹配尾页链接中的页码：index_数字.html
             match = re.search(r'index_(\d+)\.html', href)
             if match:
-                return int(match.group(1))
+                max_page = int(match.group(1))
+                print(f"✅ 从尾页链接提取到最大页码：{max_page}")
+                return max_page
+        
+        # 备用方案：如果尾页链接找不到，提取所有分页数字中的最大值
+        page_numbers = []
+        # 匹配所有分页链接中的数字
+        page_links = pager_div.find_all('a', href=re.compile(r'index_(\d+)\.html'))
+        for link in page_links:
+            match = re.search(r'index_(\d+)\.html', link['href'])
+            if match:
+                page_numbers.append(int(match.group(1)))
+        
+        # 匹配分页区域内的纯数字span（当前页码）
+        current_page_span = pager_div.find('span', string=re.compile(r'^\d+$'))
+        if current_page_span:
+            page_numbers.append(int(current_page_span.text.strip()))
+        
+        if page_numbers:
+            max_page = max(page_numbers)
+            print(f"✅ 从分页数字提取到最大页码：{max_page}")
+            return max_page
+        
     except Exception as e:
         print(f"❌ 获取最大页码失败: {type(e).__name__} - {str(e)[:50]}")
     return 0
