@@ -32,7 +32,7 @@ base_url = f"{domain}/tags/xmlcjjk/"
 max_page = get_max_page_number(base_url, headers)
 
 # 自动生成待爬取的URL列表
-urls = [base_url] + [f"{domain}/tags/xmlcjjk_{i}" for i in range(1, max_page + 1)]
+urls = [base_url] + [f"{domain}/tags/xmlcjjk/index_{i}.html" for i in range(1, max_page + 1)]
 
 print(f"🎯 共生成 {len(urls)} 个目标URL")
 
@@ -84,3 +84,4 @@ with open('pq.txt', 'w', encoding='utf-8') as f:
 
 print(f"\n🎯 抓取完成！")
 print(f"✅ 结果已保存至 pq.txt，共计 {len(all_results)} 条有效记录。")
+
