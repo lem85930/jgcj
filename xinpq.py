@@ -5,10 +5,9 @@ import re
 from urllib.parse import urljoin
 
 # -------------------------- 反爬配置 --------------------------
-# 模拟浏览器请求头，避免被爬虫检测识别
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Referer": "https://www.yszzq.com/",  # 模拟站内跳转
+    "Referer": "https://www.yszzq.com/",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
     "Connection": "keep-alive",
@@ -23,18 +22,15 @@ OUTPUT_FILE = "pq.txt"
 def get_last_page_number():
     """获取尾页数字：访问首页解析尾页链接中的数字"""
     try:
-        # 发送请求，添加超时和重试机制
         response = requests.get(HOME_PAGE, headers=HEADERS, timeout=10)
-        response.encoding = response.apparent_encoding  # 自动识别编码
+        response.encoding = response.apparent_encoding
         soup = BeautifulSoup(response.text, "html.parser")
         
-        # 查找尾页链接（通常尾页按钮的a标签包含"尾页"文字）
         last_page_link = soup.find("a", string="尾页")
         if not last_page_link:
             print("未找到尾页按钮，默认尾页为1")
             return 1
         
-        # 提取尾页链接中的数字（如index_10.html中的10）
         href = last_page_link.get("href", "")
         match = re.search(r"index_(\d+)\.html", href)
         if match:
@@ -55,26 +51,28 @@ def get_page_url(page_num):
     return f"{BASE_URL}index_{page_num}.html"
 
 def parse_page(page_url):
-    """解析单个页面，提取符合条件的接口名称和URL"""
+    """解析单个页面，提取同时满足两组关键词的接口名称和URL"""
     result = []
     try:
-        # 延时1秒，避免请求过快触发反爬
-        time.sleep(1)
+        time.sleep(1)  # 延时防反爬
         response = requests.get(page_url, headers=HEADERS, timeout=10)
         response.encoding = response.apparent_encoding
         soup = BeautifulSoup(response.text, "html.parser")
         
-        # 查找所有a标签，筛选包含指定关键词的接口名称
-        keywords = ["采集接口", "接口大全", "规则地址", "接口地址"]
+        # 拆分两组关键词，需同时满足
+        core_keywords = ["采集接口", "接口大全", "规则地址", "接口地址"]  # 核心关键词
+        supplement_keywords = ["资源站", "采集站", "资源网", "采集网","资源"]  # 补充关键词
+        
         a_tags = soup.find_all("a")
         for a in a_tags:
             text = a.get_text(strip=True)
             href = a.get("href", "")
             
-            # 过滤条件：包含关键词 + 有有效链接
-            if any(keyword in text for keyword in keywords) and href:
-                # 拼接完整URL（处理相对路径）
-                full_url = urljoin(BASE_URL, href)
+            # 筛选条件：同时包含核心关键词+补充关键词，且链接有效
+            has_core = any(kw in text for kw in core_keywords)
+            has_supplement = any(kw in text for kw in supplement_keywords)
+            if has_core and has_supplement and href:
+                full_url = urljoin(BASE_URL, href)  # 处理相对路径
                 result.append((text, full_url))
                 print(f"提取到：{text} -> {full_url}")
         
@@ -90,7 +88,7 @@ def main():
     
     # 2. 遍历所有页面，收集数据（去重）
     all_data = []
-    seen = set()  # 用于去重（接口名称+URL）
+    seen = set()  # 去重：避免重复的接口名称+URL
     for page_num in range(1, last_page + 1):
         print(f"\n正在处理第 {page_num}/{last_page} 页")
         page_url = get_page_url(page_num)
@@ -106,7 +104,6 @@ def main():
     # 3. 写入pq.txt文件
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         for text, url in all_data:
-            # 按要求格式写入：接口名称,url
             f.write(f"{text},{url}\n")
     
     print(f"\n任务完成！共提取 {len(all_data)} 条有效数据，已写入 {OUTPUT_FILE}")
