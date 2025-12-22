@@ -60,8 +60,8 @@ def parse_page(page_url):
         soup = BeautifulSoup(response.text, "html.parser")
         
         # 拆分两组关键词，需同时满足
-        core_keywords = ["采集接口", "接口大全", "规则地址", "接口地址"]  # 核心关键词
-        supplement_keywords = ["资源站", "采集站", "资源网", "采集网", "云播"]  # 补充关键词
+        core_keywords = ["采集接口", "接口大全", "规则地址", "接口地址", "资源接口", "API接口"]  # 核心关键词
+        supplement_keywords = ["资源站", "采集站", "资源网", "采集网", "云播", "资源", "综合"]  # 补充关键词
         
         a_tags = soup.find_all("a")
         for a in a_tags:
@@ -110,4 +110,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
