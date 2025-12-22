@@ -118,7 +118,7 @@ for index, url in enumerate(urls):
                 final_url = f"https://wztz.wokaotianshi.eu.org{PROXY_PATH}{raw_href}"
             if "/ziyuan/api/" in final_url:
                 print(f"Debug - Generated URL: {final_url}")
-            if ("采集接口" in title or "资源库" in title or "资源接口" in title or "采集API接口" in title) and "XML" not in title:
+            if "采集接口" in title or "资源库" in title or "资源接口" in title or "采集API接口" in title:
                 all_results.append(f"{title},{final_url}")
                 print(f"✅ Valid: {title[:15]}... -> {final_url[:50]}...")
     except Exception as e:
@@ -127,3 +127,4 @@ for index, url in enumerate(urls):
 with open('pq.txt', 'w', encoding='utf-8') as f:
     f.write('\n'.join(all_results))
 print(f"🎯 结果已保存：共{len(all_results)}条有效记录")
+
