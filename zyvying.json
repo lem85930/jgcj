@@ -24,6 +24,12 @@
     "useInSearchAll": true
   },
   {
+    "key": "红牛云播资源采集地址",
+    "name": "红牛云播资源采集地址",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "光速资源站采集接口地址",
     "name": "光速资源站采集接口地址",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.guangsuapi.com/api.php/provide/vod/at/xml",
@@ -162,6 +168,12 @@
     "useInSearchAll": true
   },
   {
+    "key": "U酷资源网采集地址",
+    "name": "U酷资源网采集地址",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://api.ukuapi88.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "量子资源网资源采集接口",
     "name": "量子资源网资源采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://cj.lziapi.com/api.php/provide/vod/at/xml",
@@ -189,6 +201,12 @@
     "key": "天涯影视资源网采集接口",
     "name": "天涯影视资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://tyyszyapi.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
+    "key": "电影天堂采集综合资源接口",
+    "name": "电影天堂采集综合资源接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
