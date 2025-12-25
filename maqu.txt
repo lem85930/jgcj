@@ -1,5 +1,6 @@
 茅台资源站采集接口,https://caiji.maotaizy.cc/api.php/provide/vod/at/xml/
 如意资源网采集接口,https://cj.rycjapi.com/api.php/provide/vod/at/xml/
+影剧资源网采集接口,https://caiji.maotaizy.cc/api.php/provide/vod/at/xml/
 黑料资源网采集接口大全,https://www.heiliaozyapi.com/api.php/provide/vod/at/xml/
 香蕉资源网采集接口,https://www.xiangjiaozyw.com/api.php/provide/vod/at/xml/
 红牛云播资源采集地址,https://www.hongniuzy2.com/api.php/provide/vod/at/xml/
@@ -18,7 +19,6 @@
 ikun资源网采集接口,https://ikunzyapi.com/api.php/provide/vod/at/xml/
 789官采资源站采集接口,https://www.caiji.cyou/api.php/provide/vod/at/xml/
 猫眼资源站采集接口,https://api.maoyanapi.top/api.php/provide/vod/at/xml/
-影剧资源网采集接口,https://caiji.maotaizy.cc/api.php/provide/vod/at/xml/
 旺旺资源网采集接口,https://api.wwzy.tv/api.php/provide/vod/at/xml/
 155资源站采集接口,https://155api.com/api.php/provide/vod/at/xml/
 搜av资源站采集接口,https://api.souavzy.vip/api.php/provide/vod/at/xml/

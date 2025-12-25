@@ -12,6 +12,12 @@
     "useInSearchAll": true
   },
   {
+    "key": "影剧资源网采集接口",
+    "name": "影剧资源网采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "黑料资源网采集接口大全",
     "name": "黑料资源网采集接口大全",
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.heiliaozyapi.com/api.php/provide/vod/at/xml",
@@ -117,12 +123,6 @@
     "key": "猫眼资源站采集接口",
     "name": "猫眼资源站采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "影剧资源网采集接口",
-    "name": "影剧资源网采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {

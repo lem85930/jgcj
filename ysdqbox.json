@@ -19,6 +19,15 @@
   },
   {
     "type": "",
+    "sourceName": "影剧资源网采集接口",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "黑料资源网采集接口大全",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://www.heiliaozyapi.com/api.php/provide/vod/at/xml",
@@ -175,15 +184,6 @@
     "sourceName": "猫眼资源站采集接口",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "影剧资源网采集接口",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""

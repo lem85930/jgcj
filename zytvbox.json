@@ -16,6 +16,14 @@
     "recordable": 0
   },
   {
+    "key": "影剧资源网采集接口",
+    "name": "影剧资源网采集接口",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
     "key": "黑料资源网采集接口大全",
     "name": "黑料资源网采集接口大全",
     "type": 1,
@@ -156,14 +164,6 @@
     "name": "猫眼资源站采集接口",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
-    "key": "影剧资源网采集接口",
-    "name": "影剧资源网采集接口",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
