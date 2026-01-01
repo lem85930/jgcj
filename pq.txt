@@ -1,19 +1,3 @@
-茅台资源站采集接口,https://www.yszzq.com/ziyuan/api/216.html
-如意资源网采集接口,https://www.yszzq.com/ziyuan/api/205.html
-影剧资源网采集接口,https://www.yszzq.com/ziyuan/api/240.html
-黑料资源网采集接口大全,https://www.yszzq.com/ziyuan/api/233.html
-香蕉资源网采集接口,https://www.yszzq.com/ziyuan/api/232.html
-红牛云播资源采集地址,https://www.yszzq.com/ziyuan/api/119.html
-光速资源站采集接口地址,https://www.yszzq.com/ziyuan/api/135.html
-金鹰资源网苹果CMS采集接口,https://www.yszzq.com/ziyuan/api/138.html
-新浪资源采集网采集接口大全,https://www.yszzq.com/ziyuan/api/140.html
-速播资源采集规则地址,https://www.yszzq.com/ziyuan/api/156.html
-豪华资源网采集接口地址,https://www.yszzq.com/ziyuan/api/180.html
-虎牙资源采集网采集接口,https://www.yszzq.com/ziyuan/api/230.html
-91精品资源网采集接口,https://www.yszzq.com/ziyuan/api/229.html
-幸资源站采集接口,https://www.yszzq.com/ziyuan/api/227.html
-爱奇艺资源站采集接口,https://www.yszzq.com/ziyuan/api/220.html
-综合采集接口,https://www.yszzq.com/tags/zhcjjk/
 豆瓣资源采集站采集接口大全,https://www.yszzq.com/ziyuan/api/207.html
 奶香香资源站采集接口,https://www.yszzq.com/ziyuan/api/185.html
 魔都动漫资源采集网采集接口,https://www.yszzq.com/ziyuan/api/181.html
@@ -29,6 +13,7 @@ ikun资源网采集接口,https://www.yszzq.com/ziyuan/api/188.html
 搜av资源站采集接口,https://www.yszzq.com/ziyuan/api/209.html
 优质资源库采集接口,https://www.yszzq.com/ziyuan/api/149.html
 OK资源采集网采集接口,https://www.yszzq.com/ziyuan/api/235.html
+综合采集接口,https://www.yszzq.com/tags/zhcjjk/
 金蝉官采影视采集站采集接口,https://www.yszzq.com/ziyuan/api/215.html
 豆豆资源网采集接口,https://www.yszzq.com/ziyuan/api/234.html
 山海官方资源站采集接口,https://www.yszzq.com/ziyuan/api/231.html
