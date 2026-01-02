@@ -48,7 +48,6 @@
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.huyaapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
-
   {
     "key": "爱奇艺资源站采集接口",
     "name": "爱奇艺资源站采集接口",
@@ -75,7 +74,6 @@
     "api": "https://cfkua.wokaotianshi.eu.org/https://ikunzyapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
-
   {
     "key": "OK资源采集网采集接口",
     "name": "OK资源采集网采集接口",
@@ -166,20 +164,12 @@
     "api": "https://cfkua.wokaotianshi.eu.org/https://bfzyapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
-
   {
     "key": "非凡资源网采集接口",
     "name": "非凡资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/http://api.ffzyapi.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
-  {
-    "key": "CK资源采集接口",
-    "name": "CK资源采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://ckzy.me/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-
   {
     "key": "樱花资源网采集接口",
     "name": "樱花资源网采集接口",
