@@ -26,7 +26,6 @@ ikun资源网采集接口,https://www.yszzq.com/ziyuan/api/188.html
 猫眼资源站采集接口,https://www.yszzq.com/ziyuan/api/224.html
 旺旺资源网采集接口,https://www.yszzq.com/ziyuan/api/198.html
 155资源站采集接口,https://www.yszzq.com/ziyuan/api/187.html
-搜av资源站采集接口,https://www.yszzq.com/ziyuan/api/209.html
 优质资源库采集接口,https://www.yszzq.com/ziyuan/api/149.html
 OK资源采集网采集接口,https://www.yszzq.com/ziyuan/api/235.html
 金蝉官采影视采集站采集接口,https://www.yszzq.com/ziyuan/api/215.html
@@ -58,10 +57,11 @@ X细胞资源网采集接口,https://www.yszzq.com/ziyuan/api/210.html
 S猫资源网采集接口,https://www.yszzq.com/ziyuan/api/136.html
 CK资源采集接口,https://www.yszzq.com/ziyuan/api/143.html
 森林资源网采集接口,https://www.yszzq.com/ziyuan/api/148.html
-辣椒资源网采集接口,https://www.yszzq.com/ziyuan/api/189.html
 麒麟资源站全站采集接口,https://www.yszzq.com/ziyuan/api/192.html
 樱花资源网采集接口,https://www.yszzq.com/ziyuan/api/194.html
 无尽资源网采集接口,https://www.yszzq.com/ziyuan/api/195.html
+辣椒资源网采集接口,https://www.yszzq.com/ziyuan/api/189.html
+搜av资源站采集接口,https://www.yszzq.com/ziyuan/api/209.html
 CK百货资源网采集接口,https://www.yszzq.com/ziyuan/api/242.html
 丝袜资源采集网采集接口,https://www.yszzq.com/ziyuan/api/196.html
 魔爪资源采集网采集接口,https://www.yszzq.com/ziyuan/api/208.html

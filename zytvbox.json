@@ -184,14 +184,6 @@
     "recordable": 0
   },
   {
-    "key": "搜av资源站采集接口",
-    "name": "搜av资源站采集接口",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://api.souavzy.vip/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "OK资源采集网采集接口",
     "name": "OK资源采集网采集接口",
     "type": 1,
@@ -404,14 +396,6 @@
     "name": "森林资源网采集接口",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://slapibf.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
-    "key": "辣椒资源网采集接口",
-    "name": "辣椒资源网采集接口",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://apilj.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
