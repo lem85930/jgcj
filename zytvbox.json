@@ -88,14 +88,6 @@
     "recordable": 0
   },
   {
-    "key": "幸资源站采集接口",
-    "name": "幸资源站采集接口",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://xzybb1.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "爱奇艺资源站采集接口",
     "name": "爱奇艺资源站采集接口",
     "type": 1,
@@ -148,6 +140,14 @@
     "name": "ikun资源网采集接口",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://ikunzyapi.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "幸资源站采集接口",
+    "name": "幸资源站采集接口",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://xzybb1.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },

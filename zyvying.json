@@ -66,12 +66,6 @@
     "useInSearchAll": true
   },
   {
-    "key": "幸资源站采集接口",
-    "name": "幸资源站采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://xzybb1.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
     "key": "爱奇艺资源站采集接口",
     "name": "爱奇艺资源站采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.iqiyizyapi.com/api.php/provide/vod/at/xml",
@@ -111,6 +105,12 @@
     "key": "ikun资源网采集接口",
     "name": "ikun资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://ikunzyapi.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
+    "key": "幸资源站采集接口",
+    "name": "幸资源站采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://xzybb1.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {

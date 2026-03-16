@@ -155,20 +155,6 @@
       "download": ""
     },
     {
-      "key": "幸资源站采集接口",
-      "name": "幸资源站采集接口",
-      "api": "https://cfkua.wokaotianshi.eu.org/https://xzybb1.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "search": 1,
-      "group": "切片",
-      "status": true,
-      "type": 0,
-      "id": "12",
-      "isActive": true,
-      "resource": "",
-      "download": ""
-    },
-    {
       "key": "爱奇艺资源站采集接口",
       "name": "爱奇艺资源站采集接口",
       "api": "https://cfkua.wokaotianshi.eu.org/https://www.iqiyizyapi.com/api.php/provide/vod/at/xml",
@@ -177,7 +163,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "13",
+      "id": "12",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -191,7 +177,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "14",
+      "id": "13",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -205,7 +191,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "15",
+      "id": "14",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -219,7 +205,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "16",
+      "id": "15",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -233,7 +219,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "17",
+      "id": "16",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -247,7 +233,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "18",
+      "id": "17",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -256,6 +242,20 @@
       "key": "ikun资源网采集接口",
       "name": "ikun资源网采集接口",
       "api": "https://cfkua.wokaotianshi.eu.org/https://ikunzyapi.com/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "search": 1,
+      "group": "切片",
+      "status": true,
+      "type": 0,
+      "id": "18",
+      "isActive": true,
+      "resource": "",
+      "download": ""
+    },
+    {
+      "key": "幸资源站采集接口",
+      "name": "幸资源站采集接口",
+      "api": "https://cfkua.wokaotianshi.eu.org/https://xzybb1.com/api.php/provide/vod/at/xml",
       "playUrl": "",
       "search": 1,
       "group": "切片",
