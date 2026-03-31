@@ -8,7 +8,6 @@
 速播资源采集规则地址,https://subocj.com/api.php/provide/vod/at/xml/
 豪华资源网采集接口地址,https://hhzyapi.com/api.php/provide/vod/at/xml/
 虎牙资源采集网采集接口,https://www.huyaapi.com/api.php/provide/vod/at/xml/
-91精品资源网采集接口,https://91jpzyw.com/api.php/provide/vod/at/xml/
 爱奇艺资源站采集接口,https://www.iqiyizyapi.com/api.php/provide/vod/at/xml/
 豆瓣资源采集站采集接口大全,https://caiji.dbzy5.com/api.php/provide/vod/at/xml/
 奶香香资源站采集接口,https://Naixxzy.com/api.php/provide/vod/at/xml/

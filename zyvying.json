@@ -60,12 +60,6 @@
     "useInSearchAll": true
   },
   {
-    "key": "91精品资源网采集接口",
-    "name": "91精品资源网采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://91jpzyw.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
     "key": "爱奇艺资源站采集接口",
     "name": "爱奇艺资源站采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.iqiyizyapi.com/api.php/provide/vod/at/xml",

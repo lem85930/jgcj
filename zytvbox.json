@@ -80,14 +80,6 @@
     "recordable": 0
   },
   {
-    "key": "91精品资源网采集接口",
-    "name": "91精品资源网采集接口",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://91jpzyw.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "爱奇艺资源站采集接口",
     "name": "爱奇艺资源站采集接口",
     "type": 1,
