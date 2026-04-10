@@ -10,6 +10,7 @@
 虎牙资源采集网采集接口,https://www.huyaapi.com/api.php/provide/vod/at/xml/
 爱奇艺资源站采集接口,https://www.iqiyizyapi.com/api.php/provide/vod/at/xml/
 豆瓣资源采集站采集接口大全,https://caiji.dbzy5.com/api.php/provide/vod/at/xml/
+X细胞资源网采集接口,https://www.xxibaozyw.com/api.php/provide/vod/at/xml/
 奶香香资源站采集接口,https://Naixxzy.com/api.php/provide/vod/at/xml/
 魔都动漫资源采集网采集接口,https://www.mdzyapi.com/api.php/provide/vod/at/xml/
 奥斯卡资源API采集接口大全,https://aosikazy.com/api.php/provide/vod/at/xml/
@@ -33,7 +34,6 @@ U酷资源网采集地址,https://api.ukuapi88.com/api.php/provide/vod/at/xml/
 天涯影视资源网采集接口,https://tyyszyapi.com/api.php/provide/vod/at/xml/
 电影天堂采集综合资源接口,http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/
 百度资源采集接口,https://api.apibdzy.com/api.php/provide/vod/at/xml/
-X细胞资源网采集接口,https://www.xxibaozyw.com/api.php/provide/vod/at/xml/
 火花官采收费影视资源站采集接口,http://cj.huohua.vip/api.php/provide/vod/at/xml/
 百万资源网采集接口,https://api.bwzyz.com/api.php/provide/vod/at/xml/
 老色逼资源站采集接口,https://apilsbzy1.com/api.php/provide/vod/at/xml/

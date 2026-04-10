@@ -72,6 +72,12 @@
     "useInSearchAll": true
   },
   {
+    "key": "X细胞资源网采集接口",
+    "name": "X细胞资源网采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://www.xxibaozyw.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "奶香香资源站采集接口",
     "name": "奶香香资源站采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://Naixxzy.com/api.php/provide/vod/at/xml",
@@ -207,12 +213,6 @@
     "key": "百度资源采集接口",
     "name": "百度资源采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.apibdzy.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "X细胞资源网采集接口",
-    "name": "X细胞资源网采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://www.xxibaozyw.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {

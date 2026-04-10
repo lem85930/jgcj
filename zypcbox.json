@@ -169,6 +169,20 @@
       "download": ""
     },
     {
+      "key": "X细胞资源网采集接口",
+      "name": "X细胞资源网采集接口",
+      "api": "https://cfkua.wokaotianshi.eu.org/https://www.xxibaozyw.com/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "search": 1,
+      "group": "切片",
+      "status": true,
+      "type": 0,
+      "id": "13",
+      "isActive": true,
+      "resource": "",
+      "download": ""
+    },
+    {
       "key": "奶香香资源站采集接口",
       "name": "奶香香资源站采集接口",
       "api": "https://cfkua.wokaotianshi.eu.org/https://Naixxzy.com/api.php/provide/vod/at/xml",
@@ -177,7 +191,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "13",
+      "id": "14",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -191,7 +205,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "14",
+      "id": "15",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -205,7 +219,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "15",
+      "id": "16",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -219,7 +233,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "16",
+      "id": "17",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -233,7 +247,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "17",
+      "id": "18",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -247,7 +261,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "18",
+      "id": "19",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -261,7 +275,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "19",
+      "id": "20",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -275,7 +289,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "20",
+      "id": "21",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -289,7 +303,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "21",
+      "id": "22",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -303,7 +317,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "22",
+      "id": "23",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -317,7 +331,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "23",
+      "id": "24",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -331,7 +345,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "24",
+      "id": "25",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -345,7 +359,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "25",
+      "id": "26",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -359,7 +373,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "26",
+      "id": "27",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -373,7 +387,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "27",
+      "id": "28",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -387,7 +401,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "28",
+      "id": "29",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -401,7 +415,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "29",
+      "id": "30",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -415,7 +429,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "30",
+      "id": "31",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -429,7 +443,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "31",
+      "id": "32",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -443,7 +457,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "32",
+      "id": "33",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -457,7 +471,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "33",
+      "id": "34",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -471,7 +485,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "34",
+      "id": "35",
       "isActive": true,
       "resource": "",
       "download": ""
@@ -480,20 +494,6 @@
       "key": "百度资源采集接口",
       "name": "百度资源采集接口",
       "api": "https://cfkua.wokaotianshi.eu.org/https://api.apibdzy.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "search": 1,
-      "group": "切片",
-      "status": true,
-      "type": 0,
-      "id": "35",
-      "isActive": true,
-      "resource": "",
-      "download": ""
-    },
-    {
-      "key": "X细胞资源网采集接口",
-      "name": "X细胞资源网采集接口",
-      "api": "https://cfkua.wokaotianshi.eu.org/https://www.xxibaozyw.com/api.php/provide/vod/at/xml",
       "playUrl": "",
       "search": 1,
       "group": "切片",
