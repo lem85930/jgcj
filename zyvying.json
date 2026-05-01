@@ -108,12 +108,6 @@
     "useInSearchAll": true
   },
   {
-    "key": "幸资源站采集接口",
-    "name": "幸资源站采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://xzybb1.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
     "key": "789官采资源站采集接口",
     "name": "789官采资源站采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.caiji.cyou/api.php/provide/vod/at/xml",
@@ -144,30 +138,6 @@
     "useInSearchAll": true
   },
   {
-    "key": "金蝉官采影视采集站采集接口",
-    "name": "金蝉官采影视采集站采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/http://zy.jinchancaiji.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "豆豆资源网采集接口",
-    "name": "豆豆资源网采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://api.douapi.cc/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "香蕉资源网采集接口",
-    "name": "香蕉资源网采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://www.xiangjiaozyw.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "山海官方资源站采集接口",
-    "name": "山海官方资源站采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://zy.sh0o.cn/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
     "key": "U酷资源网采集地址",
     "name": "U酷资源网采集地址",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.ukuapi88.com/api.php/provide/vod/at/xml",
@@ -192,12 +162,6 @@
     "useInSearchAll": true
   },
   {
-    "key": "大奶子资源网采集接口",
-    "name": "大奶子资源网采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://apidanaizi.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
     "key": "天涯影视资源网采集接口",
     "name": "天涯影视资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://tyyszyapi.com/api.php/provide/vod/at/xml",
@@ -213,24 +177,6 @@
     "key": "百度资源采集接口",
     "name": "百度资源采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.apibdzy.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "火花官采收费影视资源站采集接口",
-    "name": "火花官采收费影视资源站采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/http://cj.huohua.vip/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "百万资源网采集接口",
-    "name": "百万资源网采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://api.bwzyz.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
-    "key": "老色逼资源站采集接口",
-    "name": "老色逼资源站采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://apilsbzy1.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
   {
@@ -288,12 +234,6 @@
     "useInSearchAll": true
   },
   {
-    "key": "CK资源采集接口",
-    "name": "CK资源采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://ckzy.me/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
     "key": "森林资源网采集接口",
     "name": "森林资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://slapibf.com/api.php/provide/vod/at/xml",
@@ -306,15 +246,15 @@
     "useInSearchAll": true
   },
   {
-    "key": "樱花资源网采集接口",
-    "name": "樱花资源网采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
-  {
     "key": "无尽资源网采集接口",
     "name": "无尽资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.wujinapi.me/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
+    "key": "老色逼资源站采集接口",
+    "name": "老色逼资源站采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://apilsbzy1.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   }
 ]
