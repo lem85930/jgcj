@@ -18,6 +18,7 @@ X细胞资源网采集接口,https://www.yszzq.com/ziyuan/api/210.html
 奥斯卡资源API采集接口大全,https://www.yszzq.com/ziyuan/api/155.html
 玉兔资源采集接口,https://www.yszzq.com/ziyuan/api/169.html
 ikun资源网采集接口,https://www.yszzq.com/ziyuan/api/188.html
+西瓜资源采集接口,https://www.yszzq.com/ziyuan/api/244.html
 无水印资源网采集接口,https://www.yszzq.com/ziyuan/api/243.html
 云解析资源网采集接口,https://www.yszzq.com/ziyuan/api/238.html
 789官采资源站采集接口,https://www.yszzq.com/ziyuan/api/241.html

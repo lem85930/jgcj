@@ -102,6 +102,12 @@
     "useInSearchAll": true
   },
   {
+    "key": "西瓜资源采集接口",
+    "name": "西瓜资源采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.xgzyapi.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "无水印资源网采集接口",
     "name": "无水印资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.wsyzy.net/api.php/provide/vod/at/xml",

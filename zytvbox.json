@@ -136,6 +136,14 @@
     "recordable": 0
   },
   {
+    "key": "西瓜资源采集接口",
+    "name": "西瓜资源采集接口",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.xgzyapi.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
     "key": "无水印资源网采集接口",
     "name": "无水印资源网采集接口",
     "type": 1,
