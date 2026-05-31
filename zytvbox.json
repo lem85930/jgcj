@@ -272,14 +272,6 @@
     "recordable": 0
   },
   {
-    "key": "爱坤联盟资源网采集接口",
-    "name": "爱坤联盟资源网采集接口",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://www.jkunzyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "卧龙影视资源采集站采集接口",
     "name": "卧龙影视资源采集站采集接口",
     "type": 1,
