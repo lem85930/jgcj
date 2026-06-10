@@ -589,6 +589,20 @@
       "download": ""
     },
     {
+      "key": "久久热资源网采集接口",
+      "name": "久久热资源网采集接口",
+      "api": "https://cfkua.wokaotianshi.eu.org/https://99reapi.com/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "search": 1,
+      "group": "切片",
+      "status": true,
+      "type": 0,
+      "id": "43",
+      "isActive": true,
+      "resource": "",
+      "download": ""
+    },
+    {
       "key": "极品资源网采集接口",
       "name": "极品资源网采集接口",
       "api": "https://cfkua.wokaotianshi.eu.org/https://jipinzyapi.com/api.php/provide/vod/at/xml",
@@ -597,7 +611,7 @@
       "group": "切片",
       "status": true,
       "type": 0,
-      "id": "43",
+      "id": "44",
       "isActive": true,
       "resource": "",
       "download": ""

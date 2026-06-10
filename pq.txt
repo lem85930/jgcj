@@ -82,7 +82,6 @@ CK百货资源网采集接口,https://www.yszzq.com/ziyuan/api/242.html
 百万资源网采集接口,https://www.yszzq.com/ziyuan/api/201.html
 速看资源网采集接口大全,https://www.yszzq.com/ziyuan/api/154.html
 乐视资源网采集接口大全,https://www.yszzq.com/ziyuan/api/163.html
-久久热资源网采集接口,https://www.yszzq.com/ziyuan/api/165.html
 爱坤联盟资源网采集接口,https://www.yszzq.com/ziyuan/api/157.html
 红袖资源网采集接口,https://www.yszzq.com/ziyuan/api/158.html
 大漠资源采集接口,https://www.yszzq.com/ziyuan/api/161.html
@@ -99,4 +98,5 @@ CK资源采集接口,https://www.yszzq.com/ziyuan/api/143.html
 阿远采集资源网苹果CMSV8采集接口,https://www.yszzq.com/ziyuan/api/137.html
 樱花资源网采集接口,https://www.yszzq.com/ziyuan/api/194.html
 全站资源网采集接口分享,https://www.yszzq.com/ziyuan/api/162.html
+久久热资源网采集接口,https://www.yszzq.com/ziyuan/api/165.html
 极品资源网采集接口,https://www.yszzq.com/ziyuan/api/202.html

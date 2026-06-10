@@ -252,6 +252,12 @@
     "useInSearchAll": true
   },
   {
+    "key": "久久热资源网采集接口",
+    "name": "久久热资源网采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://99reapi.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "极品资源网采集接口",
     "name": "极品资源网采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://jipinzyapi.com/api.php/provide/vod/at/xml",

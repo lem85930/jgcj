@@ -336,6 +336,14 @@
     "recordable": 0
   },
   {
+    "key": "久久热资源网采集接口",
+    "name": "久久热资源网采集接口",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://99reapi.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
     "key": "极品资源网采集接口",
     "name": "极品资源网采集接口",
     "type": 1,
