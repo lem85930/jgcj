@@ -17,7 +17,6 @@ X细胞资源网采集接口,https://www.xxibaozyw.com/api.php/provide/vod/at/xm
 ikun资源网采集接口,https://ikunzyapi.com/api.php/provide/vod/at/xml/
 西瓜资源采集接口,https://caiji.xgzyapi.com/api.php/provide/vod/at/xml/
 无水印资源网采集接口,https://api.wsyzy.net/api.php/provide/vod/at/xml/
-789官采资源站采集接口,https://www.caiji.cyou/api.php/provide/vod/at/xml/
 猫眼资源站采集接口,https://api.maoyanapi.top/api.php/provide/vod/at/xml/
 旺旺资源网采集接口,https://api.wwzy.tv/api.php/provide/vod/at/xml/
 155资源站采集接口,https://155api.com/api.php/provide/vod/at/xml/

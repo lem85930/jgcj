@@ -152,14 +152,6 @@
     "recordable": 0
   },
   {
-    "key": "789官采资源站采集接口",
-    "name": "789官采资源站采集接口",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://www.caiji.cyou/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "猫眼资源站采集接口",
     "name": "猫眼资源站采集接口",
     "type": 1,

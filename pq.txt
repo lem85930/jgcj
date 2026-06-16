@@ -21,7 +21,6 @@ ikun资源网采集接口,https://www.yszzq.com/ziyuan/api/188.html
 西瓜资源采集接口,https://www.yszzq.com/ziyuan/api/244.html
 无水印资源网采集接口,https://www.yszzq.com/ziyuan/api/243.html
 云解析资源网采集接口,https://www.yszzq.com/ziyuan/api/238.html
-789官采资源站采集接口,https://www.yszzq.com/ziyuan/api/241.html
 猫眼资源站采集接口,https://www.yszzq.com/ziyuan/api/224.html
 旺旺资源网采集接口,https://www.yszzq.com/ziyuan/api/198.html
 155资源站采集接口,https://www.yszzq.com/ziyuan/api/187.html
@@ -51,6 +50,7 @@ U酷资源网采集地址,https://www.yszzq.com/ziyuan/api/127.html
 辣椒资源网采集接口,https://www.yszzq.com/ziyuan/api/189.html
 CK百货资源网采集接口,https://www.yszzq.com/ziyuan/api/242.html
 建安资源站采集接口,https://www.yszzq.com/ziyuan/api/225.html
+789官采资源站采集接口,https://www.yszzq.com/ziyuan/api/241.html
 丝袜资源采集网采集接口,https://www.yszzq.com/ziyuan/api/196.html
 魔爪资源采集网采集接口,https://www.yszzq.com/ziyuan/api/208.html
 金蝉官采影视采集站采集接口,https://www.yszzq.com/ziyuan/api/215.html

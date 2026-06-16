@@ -172,15 +172,6 @@
   },
   {
     "type": "",
-    "sourceName": "789官采资源站采集接口",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://www.caiji.cyou/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
     "sourceName": "猫眼资源站采集接口",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/at/xml",
