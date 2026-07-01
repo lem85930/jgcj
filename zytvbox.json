@@ -136,6 +136,22 @@
     "recordable": 0
   },
   {
+    "key": "大众资源采集接口",
+    "name": "大众资源采集接口",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://cdn.dzzyapi.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "UU资源网采集接口",
+    "name": "UU资源网采集接口",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/http://localhost/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
     "key": "西瓜资源采集接口",
     "name": "西瓜资源采集接口",
     "type": 1,

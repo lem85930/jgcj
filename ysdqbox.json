@@ -154,6 +154,24 @@
   },
   {
     "type": "",
+    "sourceName": "大众资源采集接口",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://cdn.dzzyapi.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "UU资源网采集接口",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/http://localhost/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "西瓜资源采集接口",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://caiji.xgzyapi.com/api.php/provide/vod/at/xml",

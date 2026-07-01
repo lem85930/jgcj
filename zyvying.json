@@ -102,6 +102,18 @@
     "useInSearchAll": true
   },
   {
+    "key": "大众资源采集接口",
+    "name": "大众资源采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://cdn.dzzyapi.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
+    "key": "UU资源网采集接口",
+    "name": "UU资源网采集接口",
+    "api": "https://cfkua.wokaotianshi.eu.org/http://localhost/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },
+  {
     "key": "西瓜资源采集接口",
     "name": "西瓜资源采集接口",
     "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.xgzyapi.com/api.php/provide/vod/at/xml",

@@ -15,6 +15,8 @@ X细胞资源网采集接口,https://www.xxibaozyw.com/api.php/provide/vod/at/xm
 奥斯卡资源API采集接口大全,https://aosikazy.com/api.php/provide/vod/at/xml/
 玉兔资源采集接口,https://apiyutu.com/api.php/provide/vod/at/xml/
 ikun资源网采集接口,https://ikunzyapi.com/api.php/provide/vod/at/xml/
+大众资源采集接口,https://cdn.dzzyapi.com/api.php/provide/vod/at/xml/
+UU资源网采集接口,http://localhost/api.php/provide/vod/at/xml/
 西瓜资源采集接口,https://caiji.xgzyapi.com/api.php/provide/vod/at/xml/
 无水印资源网采集接口,https://api.wsyzy.net/api.php/provide/vod/at/xml/
 猫眼资源站采集接口,https://api.maoyanapi.top/api.php/provide/vod/at/xml/
