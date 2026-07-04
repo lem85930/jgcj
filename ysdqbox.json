@@ -37,7 +37,7 @@
   },
   {
     "type": "",
-    "sourceName": "红牛云播资源采集地址",
+    "sourceName": "红牛资源采集地址",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
@@ -244,15 +244,6 @@
   },
   {
     "type": "",
-    "sourceName": "快车资源采集站采集接口",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://caiji.kczyapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
     "sourceName": "最大资源网采集接口",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.zuidapi.com/api.php/provide/vod/at/xml",
@@ -310,15 +301,6 @@
     "sourceName": "360资源站采集接口",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://360zyzz.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "卧龙影视资源采集站采集接口",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://collect.wolongzy.cc/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
