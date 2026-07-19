@@ -88,14 +88,6 @@
     "recordable": 0
   },
   {
-    "key": "X细胞资源网采集接口",
-    "name": "X细胞资源网采集接口",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://www.xxibaozyw.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "奶香香资源站采集接口",
     "name": "奶香香资源站采集接口",
     "type": 1,
@@ -324,6 +316,14 @@
     "name": "无尽资源网采集接口",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.wujinapi.me/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "X细胞资源网采集接口",
+    "name": "X细胞资源网采集接口",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://www.xxibaozyw.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
