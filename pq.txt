@@ -45,6 +45,7 @@ U酷资源网采集地址,https://www.yszzq.com/ziyuan/api/127.html
 森林资源网采集接口,https://www.yszzq.com/ziyuan/api/148.html
 麒麟资源站全站采集接口,https://www.yszzq.com/ziyuan/api/192.html
 无尽资源网采集接口,https://www.yszzq.com/ziyuan/api/195.html
+红楼资源网采集接口,https://www.yszzq.com/ziyuan/api/248.html
 91精品资源网采集接口,https://www.yszzq.com/ziyuan/api/229.html
 幸资源站采集接口,https://www.yszzq.com/ziyuan/api/227.html
 辣椒资源网采集接口,https://www.yszzq.com/ziyuan/api/189.html
