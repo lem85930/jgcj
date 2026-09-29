@@ -113,7 +113,7 @@
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.apibdzy.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
-    {
+ {
     "key": "越南资源",
     "name": "越南资源",
     "api": "https://cfkua.wokaotianshi.eu.org/https://vnzyz.com/api.php/provide/vod/at/xml",
@@ -122,12 +122,12 @@
     {
     "key": "桃花资源",
     "name": "桃花资源",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://xxavs.com/api.php/provide/vod/at/xml",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://thzy1.me/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },  {
     "key": "湿乐园",
     "name": "湿乐园",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://xxavs.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },  {
     "key": "j坤",
@@ -160,7 +160,6 @@
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.pgxdy.com/api/xml.php",
     "useInSearchAll": true
   },  
-
   {
     "key": "鸭鸭（丫丫）资源网采集接口",
     "name": "鸭鸭（丫丫）资源网采集接口",
