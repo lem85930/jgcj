@@ -5,12 +5,6 @@
     "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
-    {
-    "key": "旺旺资源网采集接口",
-    "name": "旺旺资源网采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://api.wwzy.tv/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
   {
     "key": "如意资源网采集接口",
     "name": "如意资源网采集接口",
@@ -119,13 +113,53 @@
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.apibdzy.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
-
-  {
-    "key": "百万资源网采集接口",
-    "name": "百万资源网采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://api.bwzyz.com/api.php/provide/vod/at/xml",
+    {
+    "key": "越南资源",
+    "name": "越南资源",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://vnzyz.com/api.php/provide/vod/at/xml",
     "useInSearchAll": true
   },
+    {
+    "key": "桃花资源",
+    "name": "桃花资源",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://xxavs.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },  {
+    "key": "湿乐园",
+    "name": "湿乐园",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },  {
+    "key": "j坤",
+    "name": "j坤",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://jkunzyapi.com/api.php/provide/vod/at/xml",
+    "useInSearchAll": true
+  },  {
+    "key": "美少女资源站",
+    "name": "美少女资源站",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://www.msnii.com/api/xml.php",
+    "useInSearchAll": true
+  },  {
+    "key": "淫水机资源站",
+    "name": "淫水机资源站",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://www.xrbsp.com/api/xml.php",
+    "useInSearchAll": true
+  },  {
+    "key": "香奶儿资源站",
+    "name": "香奶儿资源站",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://www.gdlsp.com/api/xml.php",
+    "useInSearchAll": true
+  },  {
+    "key": "白嫖资源站",
+    "name": "白嫖资源站",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://www.kxgav.com/api/xml.php",
+    "useInSearchAll": true
+  },  {
+    "key": "皇艾薇资源站",
+    "name": "皇艾薇资源站",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://www.pgxdy.com/api/xml.php",
+    "useInSearchAll": true
+  },  
 
   {
     "key": "鸭鸭（丫丫）资源网采集接口",
@@ -146,12 +180,6 @@
     "useInSearchAll": true
   },
 
-  {
-    "key": "卧龙影视资源采集站采集接口",
-    "name": "卧龙影视资源采集站采集接口",
-    "api": "https://cfkua.wokaotianshi.eu.org/https://collect.wolongzy.cc/api.php/provide/vod/at/xml",
-    "useInSearchAll": true
-  },
   {
     "key": "极速资源网采集接口",
     "name": "极速资源网采集接口",
